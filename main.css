@@ -10,9 +10,7 @@ border: 1px solid lightgray;
 
 
 #nodedata {
-  /* height: 50%; */
   width: 100%;
-  /* min-height: 300px; */
   resize: none;
   border: 1px solid lightgray;
   /* overflow-y: scroll;
