@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <link href="https://unpkg.com/vis-network@latest/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://unpkg.com/vis-network@latest/dist/vis-network.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/verge@1.10.2/verge.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sprintf/1.1.2/sprintf.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vex-js/4.1.0/css/vex.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vex-js/4.1.0/css/vex-theme-default.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vex-js/4.1.0/js/vex.combined.min.js"></script>
+    <script>vex.defaultOptions.className = 'vex-theme-default'</script>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js"></script>
+
+
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="main.js"></script>
+
+    <title>NetViz</title>
+
+    <style type="text/css">
+    </style>
+
+  </head>
+  <body class="d-flex flex-column h-100">
+      <main class="flex-shrink-0">
+
+      <div class="container-fluid">
+          <div class="row" id="header">
+          </div>
+
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+              <div class="row">
+                  <div class="col-12">
+                      <label for="nodedata"><strong>Network data in CSV format</strong></label>
+                      <textarea id="nodedata"></textarea>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-12">
+
+                        <div class="custom-file">
+                          <input id="csvfileupload" type="file" class="custom-file-input" id="csvFileInput" aria-describedby="flab1" accept=".csv,.tsv,.txt">
+                          <label id="flab2" class="custom-file-label" for="csvFileInput">Choose file</label>
+                        </div>
+
+                          <!-- <div class="input-group">
+                            <div class="custom-file">
+                              <input type="file" class="custom-file-input" id="csvFileInput">
+                              <label id="flab" class="custom-file-label" for="inputGroupFile04">Choose file</label>
+                            </div>
+                        </div> -->
+
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                        <div class="col-12">
+                         <button id="drawGraphButton" type="button" class="btn btn-primary btn-sm">draw</button>
+                         <button id="freezeBtn" type="button" class="btn btn-outline-secondary  btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">freeze</button>
+                        </div>
+
+                        <!-- <div class="col-4">
+                            <div class="progress">
+                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                           </div>
+                        </div> -->
+
+                </div>
+          </div>
+
+          <!-- </div> -->
+
+
+
+          <div class="col-6 col-sm-6 col-md-8 col-lg-9 col-xl-9" id="networkViewContainer">
+              <div id="networkView">
+
+                </div>
+          </div>
+        </div>
+      </div>
+
+      <script type="text/javascript">
+      </script>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </main>
+
+    <footer class="footer mt-auto py-3">
+      <div class="container d-flex justify-content-center" id="footerTextDiv">
+        <span class="text-muted">Developed by <a href="http://kt.ijs.si/vid_podpecan/">Vid Podpečan</a></span>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
