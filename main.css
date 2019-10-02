@@ -1,5 +1,5 @@
 body {
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 #networkView {
 /* width: 100%;
@@ -33,13 +33,12 @@ border: 1px solid lightgray;
     margin-top: 15px !important;
     padding-top: 6px !important;
     padding-bottom: 6px !important;
-    /* border-top: 1px dotted black; */
-  background-color: #f5f5f5;
-  /* height:50px; */
+    background-color: #f5f5f5;
+    /* background-color: darkgrey; */
 }
 
 #csvFileInput{
-    max-width: 200px;
+    /* max-width: 200px; */
 }
 
 
@@ -50,4 +49,50 @@ border: 1px solid lightgray;
   height: auto;
   padding-top: 3px;
   padding-bottom: 3px;
+}
+
+
+
+/* #myModal {
+    visibility: hidden;
+} */
+
+/* #myModal {
+  position: relative;
+} */
+
+/* .modal-dialog {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 1px;
+}
+
+.modal-header{
+     background-color: #CDE1FF;
+
+}
+.modal-content {
+    overflow:hidden;
+} */
+
+#myModal {
+    line-height: normal;
+}
+
+
+
+/*  vis.js styles  */
+.vis-configuration.vis-config-header {
+    font-weight: bold;
+    font-size: 125%;
+    padding: 10px 0 10px 0;
+}
+
+.vis-configuration.vis-config-rangeinput {
+    max-width: 80px;
+}
+
+.vis-configuration.vis-config-range {
+
 }

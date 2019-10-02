@@ -1,5 +1,10 @@
 
-var netviz = {};
+var netviz = {
+    nodes: undefined,
+    edges: undefined,
+    network: undefined,
+    isFrozen: false
+};
 
 netviz.options = {
     clickToUse: false,
@@ -126,7 +131,9 @@ netviz.options = {
     },
 
    layout: {
-       improvedLayout: true
+       // improvedLayout: true
+       improvedLayout: false
+
    },
 
     physics: {
@@ -155,17 +162,12 @@ netviz.options = {
     }
 };
 
-netviz.nodes = undefined;
-netviz.edges = undefined;
-netviz.network = undefined;
-netviz.isFrozen = false;
-
 
 function scale() {
     $('#networkView').height(verge.viewportH()-(20+50));
     $('#networkView').width($('#networkViewContainer').width());
     // $('#edgedata').height(verge.viewportH()/2-50);
-    $('#nodedata').height(verge.viewportH()-(100+50+25));
+    $('#nodedata').height(verge.viewportH()-(100+50+30));
 }
 
 function fill_sample() {
@@ -210,9 +212,11 @@ function releaseFreezeBtn() {
 }
 
 function freezeNodes(state){
+    netviz.network.stopSimulation();
     netviz.nodes.forEach(function(node, id){
         netviz.nodes.update({id: id, fixed: state});
     });
+    netviz.network.startSimulation();
 }
 
 function freeze() {
@@ -233,9 +237,25 @@ $(window).resize(function () {
 });
 
 
+function clear(){
+    if (netviz.network != undefined) {
+        // netviz.network.removeAllListeners();
+        // netviz.network.destroy();
+        // $('#myModal').modal('hide');
+        // $('#myModalBody').text('');
+        // $('#myModal').text('');
+
+        if ($( "#myModal" ).text()) {
+            $('#myModal').text('');
+            $('#myModal').dialog('close');
+        }
+    }
+}
 
 function draw_graph() {
     releaseFreezeBtn();
+    clear();
+
     var csvdata = Papa.parse($('#nodedata').val(), {skipEmptyLines: true});
     netviz.nodes = new vis.DataSet();
     netviz.edges = new vis.DataSet();
@@ -303,7 +323,7 @@ function draw_graph() {
       netviz.network.on('dragStart', onDragStart);
       netviz.network.on('dragEnd', onDragEnd);
       netviz.network.on('stabilizationProgress', function(obj){
-          console.log(obj);
+          // console.log(obj);
           netviz.network.redraw();
       })
 }
@@ -326,8 +346,57 @@ function onDragEnd(obj) {
     }
 }
 
+
+function filterSettings(option, path) {
+    var physicsOptions = [
+        'gravitationalConstant',
+        'centralGravity',
+        'springLength',
+        'springConstant',
+        'damping',
+        'avoidOverlap',
+        'solver',
+    ];
+    var edgeOptions = [
+        'type',
+    ]
+
+    if (path.indexOf('physics') !== -1) {
+        return physicsOptions.indexOf(option) !== -1;
+        // return true;
+    }
+    else if (path.indexOf('edges') !== -1) {
+        if (path.indexOf('smooth') !== -1) {
+            return edgeOptions.indexOf(option) !== -1;
+        }
+        else
+            return false;
+    }
+    else {
+        return false;
+    }
+}
+
+function showSettings() {
+    $( "#myModal" ).dialog('open');
+    var options = {
+        configure: {
+            enabled: true,
+            container: document.getElementById('myModal'),
+            // filter: 'physics',
+            filter: filterSettings,
+            showButton: false
+        }
+    };
+    netviz.network.setOptions(options);
+    return;
+}
+
 function loadCSV(evt){
+    $( "#myModal" ).dialog('close');
     var file = evt.target.files[0];
+    if(!file)
+        return;
     var reader = new FileReader();
     reader.readAsText(file);
     reader.onload = function(event) {
@@ -336,15 +405,36 @@ function loadCSV(evt){
     reader.onerror = function() {
         vex.dialog.alert('Error while reading ' + file.fileName);
     };
-    $('#flab2').text(evt.target.files[0].name)
-    // console.log(evt.target.files[0]);
+    var dname = evt.target.files[0].name;
+    if (dname.length > 25)
+        dname = dname.slice(0,25) + '...'
+    $('#flab2').text(dname);
 }
+
+function createSettingsDialog() {
+    $( "#myModal" ).dialog({
+        position: 'left top',
+    	width: '350px',
+    	buttons: [
+    		{
+    			text: "close",
+    			click: function() {
+    				$( this ).dialog( "close" );
+    			}
+    		},
+    	],
+    });
+}
+
 
 $(document).ready(function () {
     $('#drawGraphButton').click(draw_graph)
-    $('#freezeBtn').on('click', freeze);
+    $('#freezeBtn').click(freeze);
+    $('#configButton').click(showSettings);
     $(document).on('change', '#csvfileupload' , loadCSV);
-
+    // create dialog and hide it
+    createSettingsDialog();
+    $( "#myModal" ).dialog('close');
     scale();
     fill_sample();
     draw_graph();

@@ -8,11 +8,26 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <link href="https://unpkg.com/vis-network@latest/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="https://unpkg.com/vis-network@latest/dist/vis-network.min.js"></script>
+
+    <link href="include/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <link href="include/jquery-ui-1.12.1/jquery-ui.structure.min.css" rel="stylesheet" type="text/css" />
+    <script src="include/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+
+    <!-- <link href="https://unpkg.com/vis-network@latest/dist/vis-network.min.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <script type="text/javascript" src="https://unpkg.com/vis-network@latest/dist/vis-network.min.js"></script> -->
+
+    <!-- <link href="include/vis-network-master/dist/vis-network.min.css" rel="stylesheet" type="text/css" /> -->
+    <link href="include/vis-network-master/dist/vis-network-custom.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="include/vis-network-master/dist/vis-network.min.js"></script>
+
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/verge@1.10.2/verge.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
@@ -25,11 +40,16 @@
     <script>vex.defaultOptions.className = 'vex-theme-default'</script>
 
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" rel="stylesheet" type="text/css" />
+
 
 
     <link href="main.min.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="main.min.js"></script>
+
+    <!-- <link href="main.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="main.js"></script> -->
 
     <title>NetViz</title>
 
@@ -52,6 +72,13 @@
                       <textarea id="nodedata"></textarea>
                   </div>
               </div>
+
+              <!-- <div class="row h-auto">
+                  <div id="settings" class="col-12">
+                  </div>
+              </div> -->
+
+
               <div class="row">
                   <div class="col-12">
 
@@ -76,7 +103,9 @@
                         <div class="col-12">
                          <button id="drawGraphButton" type="button" class="btn btn-primary btn-sm">draw</button>
                          <button id="freezeBtn" type="button" class="btn btn-outline-secondary  btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">freeze</button>
+                         <button id="configButton" type="button" class="btn btn-outline-info btn-sm float-right"><span class="oi oi-cog"></span></button>
                         </div>
+
 
                         <!-- <div class="col-4">
                             <div class="progress">
@@ -106,11 +135,6 @@
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
     </main>
 
     <footer class="footer mt-auto py-3">
@@ -119,6 +143,33 @@
       </div>
     </footer>
 
+    <!-- <div id="vizSettings" title="Settings">
+      <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+    </div> -->
+
+
+    <!-- <div id="myModal" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Visualization settings</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div id="myModalBody" class="modal-body">
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div id="myModal" title="Basic dialog">
+      <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+    </div> -->
+
+
+    <div id="myModal" title="Visualization settings">
+    </div>
 
   </body>
 </html>
