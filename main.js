@@ -196,15 +196,26 @@ function fill_sample() {
 //     return html;
 // }
 
+// function make_tooltip(title, text) {
+//     var html = [
+//         '<div class="card text-wrap" style="width: 25rem;">',
+//         '<div class="card-body">',
+//         '<h5 class="card-title">%s</h5>',
+//         '<p class="card-text">%s</p>',
+//         '</div></div>'].join('');
+//     return vsprintf(html, [title, text]);
+// }
+
 function make_tooltip(title, text) {
+    var wrapped = text.replace(/(?![^\n]{1,42}$)([^\n]{1,42})\s/g, '$1<br/>');
+    // return title + '\n' + text;
     var html = [
-        '<div class="card text-wrap" style="width: 25rem;">',
-        '<div class="card-body">',
-        '<h5 class="card-title">%s</h5>',
-        '<p class="card-text">%s</p>',
-        '</div></div>'].join('');
-    return vsprintf(html, [title, text]);
+        '<div class="customTooltip">',
+        '%s',
+        '</div>'].join('');
+    return vsprintf(html, [wrapped]);
 }
+
 
 function releaseFreezeBtn() {
     if (eval($('#freezeBtn').attr('aria-pressed'))==true)
@@ -292,8 +303,10 @@ function draw_graph() {
             else
                 arrows = '';
 
-            netviz.nodes.update({id: fromNode, label: fromNodeLabel, title: make_tooltip(fromNode, '')});
-            netviz.nodes.update({id: toNode, label: toNodeLabel, title: make_tooltip(toNode, '')});
+            // netviz.nodes.update({id: fromNode, label: fromNodeLabel, title: make_tooltip(fromNode, '')});
+            // netviz.nodes.update({id: toNode, label: toNodeLabel, title: make_tooltip(toNode, '')});
+            netviz.nodes.update({id: fromNode, label: fromNodeLabel});
+            netviz.nodes.update({id: toNode, label: toNodeLabel});
 
             if(line.length >= 5) {
                 netviz.edges.add({id: index, from: fromNode, to: toNode, label: label, arrows: arrows, title: make_tooltip('', line[4].trim())});
@@ -322,10 +335,10 @@ function draw_graph() {
       netviz.network = new vis.Network(container, data, netviz.options);
       netviz.network.on('dragStart', onDragStart);
       netviz.network.on('dragEnd', onDragEnd);
-      netviz.network.on('stabilizationProgress', function(obj){
-          // console.log(obj);
-          netviz.network.redraw();
-      })
+      // netviz.network.on('stabilizationProgress', function(obj){
+      //     // console.log(obj);
+      //     // netviz.network.redraw();
+      // })
 }
 
 function onDragStart(obj) {
@@ -378,6 +391,7 @@ function filterSettings(option, path) {
 }
 
 function showSettings() {
+
     $( "#myModal" ).dialog('open');
     var options = {
         configure: {
@@ -426,6 +440,120 @@ function createSettingsDialog() {
     });
 }
 
+function formatNodeInfoVex(nid) {
+    var html = '<h3>' + netviz.nodes.get(nid).label + '</h3>' + '<p>' + netviz.nodes.get(nid).title + '</p>';
+    return html
+}
+
+function formatEdgeInfoVex(eid) {
+    var html = '<h3>' + netviz.edges.get(eid).label + '</h3>' + '<p>' + netviz.edges.get(eid).title + '</p>';
+    return html
+}
+
+
+function initContextMenus() {
+    var canvasMenu = {
+        "stop": {name: "Stop simulation"},
+        "start" : {name: "Start simulation"}
+    };
+    var nodeMenuFix = {
+        "delete": {name: "Delete"},
+        // "expand": {name: "Expand"},
+        "fix": {name: "Fix position"},
+        "info": {name: "Info"}
+    };
+    var nodeMenuRelease = {
+        "delete": {name: "Delete"},
+        // "expand": {name: "Expand"},
+        "release": {name: "Release position"},
+        "info": {name: "Info"}
+    };
+    var edgeMenu = {
+        "delete": {name: "Delete"},
+        "info": {name: "Info"}
+    };
+
+    $.contextMenu({
+            selector: 'canvas',
+            build: function($trigger, e) {
+                // this callback is executed every time the menu is to be shown
+                // its results are destroyed every time the menu is hidden
+                // e is the original contextmenu event, containing e.pageX and e.pageY (amongst other data)
+
+                var hoveredEdge = undefined;
+                var hoveredNode = undefined;
+                if (!$.isEmptyObject(netviz.network.selectionHandler.hoverObj.nodes)) {
+                    hoveredNode = netviz.network.selectionHandler.hoverObj.nodes[Object.keys(netviz.network.selectionHandler.hoverObj.nodes)[0]];
+                }
+                else {
+                    hoveredNode = undefined;
+                }
+                if (!$.isEmptyObject(netviz.network.selectionHandler.hoverObj.edges)) {
+                    hoveredEdge = netviz.network.selectionHandler.hoverObj.edges[Object.keys(netviz.network.selectionHandler.hoverObj.edges)[0]];
+                }
+                else {
+                    hoveredEdge = undefined;
+                }
+
+                // ignore auto-highlighted edge(s) on node hover
+                if (hoveredNode != undefined && hoveredEdge != undefined)
+                    hoveredEdge = undefined;
+
+                if (hoveredNode != undefined && hoveredEdge == undefined) {
+                    return {
+                        callback: function(key, options) {
+                            if (key == "delete") {
+                                netviz.nodes.remove(hoveredNode);
+                            }
+                            else if (key == "expand") {
+                                vex.dialog.alert("Not yet implemented.");
+                            }
+                            else if (key == "fix") {
+                                netviz.nodes.update({id: hoveredNode.id, fixed: true});
+                            }
+                            else if (key == "release") {
+                                netviz.nodes.update({id: hoveredNode.id, fixed: false});
+                            }
+                            else if (key == "info") {
+                                vex.dialog.alert({unsafeMessage: formatNodeInfoVex(hoveredNode.id)});
+                            }
+                        },
+                        items: netviz.nodes.get(hoveredNode.id).fixed ? nodeMenuRelease : nodeMenuFix
+                    };
+                }
+                else if (hoveredNode == undefined && hoveredEdge != undefined) {
+                    return {
+                        callback: function(key, options) {
+                            if (key == "delete") {
+                                netviz.edges.remove(hoveredEdge);
+                            }
+                            else if (key == "info") {
+                                vex.dialog.alert({unsafeMessage: formatEdgeInfoVex(hoveredEdge.id)});
+                            }
+                        },
+                        items: edgeMenu
+                    };
+                }
+                else {
+                    return {
+                        callback: function(key, options) {
+                            if (key == "stop") {
+                                netviz.network.stopSimulation();
+                                // netviz.edges.remove(hoveredEdge);
+                            }
+                            else if (key == "start") {
+                                releaseFreezeBtn();
+                                netviz.network.startSimulation();
+                            }
+                        },
+                        items: canvasMenu
+                    };
+
+                }
+            }
+        });
+
+}
 
 $(document).ready(function () {
     $('#drawGraphButton').click(draw_graph)
@@ -435,6 +563,10 @@ $(document).ready(function () {
     // create dialog and hide it
     createSettingsDialog();
     $( "#myModal" ).dialog('close');
+
+
+    initContextMenus();
+
     scale();
     fill_sample();
     draw_graph();

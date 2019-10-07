@@ -20,6 +20,10 @@ border: 1px solid lightgray;
 
 }
 
+.customTooltip {
+    /* max-width: 25rem; */
+}
+
 
 #header {
   height: 10px;
