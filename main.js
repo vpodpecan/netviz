@@ -216,6 +216,13 @@ function make_tooltip(title, text) {
     return vsprintf(html, [wrapped]);
 }
 
+function wrap_text(text) {
+    var wrapped = text.replace(/([^\n]{1,32})/g, '$1\n');
+    if(wrapped.slice(-1) == '\n')
+        wrapped = wrapped.slice(0,-1);
+    return wrapped;
+}
+
 
 function releaseFreezeBtn() {
     if (eval($('#freezeBtn').attr('aria-pressed'))==true)
@@ -282,13 +289,13 @@ function draw_graph() {
             var fromNodeLabel = fromNode;
             var idx = fromNode.indexOf('_')
             if (idx != -1){
-                fromNodeLabel = fromNode.slice(idx+1) + '\n' + fromNode.slice(0,idx)
+                fromNodeLabel = wrap_text(fromNode.slice(idx+1)) + '\n' + fromNode.slice(0,idx)
             }
 
             var toNodeLabel = toNode;
             var idx = toNode.indexOf('_')
             if (idx != -1){
-                toNodeLabel = toNode.slice(idx+1) + '\n' + toNode.slice(0,idx);
+                toNodeLabel = wrap_text(toNode.slice(idx+1)) + '\n' + toNode.slice(0,idx);
             }
 
             var arrows = '';
@@ -441,13 +448,13 @@ function createSettingsDialog() {
 }
 
 function formatNodeInfoVex(nid) {
-    var html = '<h3>' + netviz.nodes.get(nid).label + '</h3>' + '<p>' + netviz.nodes.get(nid).title + '</p>';
-    return html
+    var text = netviz.nodes.get(nid).title == undefined ? "No additional information is available" : netviz.nodes.get(nid).title;
+    return vsprintf('<h5>%s</h5><p>%s</p>', [netviz.nodes.get(nid).label, text]);
 }
 
 function formatEdgeInfoVex(eid) {
-    var html = '<h3>' + netviz.edges.get(eid).label + '</h3>' + '<p>' + netviz.edges.get(eid).title + '</p>';
-    return html
+    var text = netviz.edges.get(eid).title == undefined ? "No additional information is available" : netviz.edges.get(eid).title;
+    return vsprintf('<h5>%s</h5><p>%s</p>', [netviz.edges.get(eid).label, text]);
 }
 
 
