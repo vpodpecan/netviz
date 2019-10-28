@@ -172,13 +172,13 @@ function scale() {
 
 function fill_sample() {
     var sampleData = [
-        'node1, term_node2, ->, first edge, Some info text for this edge.',
-        'node1, node3, --, second edge, Some more text for this edge.',
-        'node1, node4, <-, third edge',
-        'term_node2, node4, <->, fourth edge',
+        'node1,term_node2,->,first edge,Some info text for this edge.',
+        'node1,node3,--,second edge,Some more text for this edge.',
+        'node1,node4,<-,third edge',
+        'term_node2,node4,<->,fourth edge',
         '',
-        'node1, This is some text for node1.',
-        'term_node2, This is some text for node2.'].join('\n');
+        'node1,"Some info text, which includes delimiter"',
+        'term_node2,This is some text for node2.'].join('\n');
     $('#nodedata').val(sampleData);
 }
 
