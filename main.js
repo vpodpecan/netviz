@@ -286,13 +286,13 @@ function draw_graph() {
             var label = line[3].trim();
 
             var parts = undefined;
-            var fromNodeLabel = fromNode;
+            var fromNodeLabel = wrap_text(fromNode);
             var idx = fromNode.indexOf('_')
             if (idx != -1){
                 fromNodeLabel = wrap_text(fromNode.slice(idx+1)) + '\n' + fromNode.slice(0,idx)
             }
 
-            var toNodeLabel = toNode;
+            var toNodeLabel = wrap_text(toNode);
             var idx = toNode.indexOf('_')
             if (idx != -1){
                 toNodeLabel = wrap_text(toNode.slice(idx+1)) + '\n' + toNode.slice(0,idx);
@@ -324,7 +324,13 @@ function draw_graph() {
         else if (line.length == 2) {
             var nid = line[0].trim();
             var text = line[1].trim();
-            netviz.nodes.update({id: nid, title: make_tooltip(nid, text)});
+
+            var nodeLabel = wrap_text(nid);
+            var idx = nid.indexOf('_')
+            if (idx != -1){
+                nodeLabel = wrap_text(nid.slice(idx+1)) + '\n' + nid.slice(0,idx)
+            }
+            netviz.nodes.update({id: nid, label: nodeLabel, title: make_tooltip(nid, text)});
         }
 
     })
