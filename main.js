@@ -287,16 +287,16 @@ function draw_graph() {
 
             var parts = undefined;
             var fromNodeLabel = wrap_text(fromNode);
-            var idx = fromNode.indexOf('_')
-            if (idx != -1){
-                fromNodeLabel = wrap_text(fromNode.slice(idx+1)) + '\n' + fromNode.slice(0,idx)
-            }
+            // var idx = fromNode.indexOf('_')
+            // if (idx != -1){
+            //     fromNodeLabel = wrap_text(fromNode.slice(idx+1)) + '\n' + fromNode.slice(0,idx)
+            // }
 
             var toNodeLabel = wrap_text(toNode);
-            var idx = toNode.indexOf('_')
-            if (idx != -1){
-                toNodeLabel = wrap_text(toNode.slice(idx+1)) + '\n' + toNode.slice(0,idx);
-            }
+            // var idx = toNode.indexOf('_')
+            // if (idx != -1){
+            //     toNodeLabel = wrap_text(toNode.slice(idx+1)) + '\n' + toNode.slice(0,idx);
+            // }
 
             var arrows = '';
             if(dir=='->')
@@ -326,10 +326,10 @@ function draw_graph() {
             var text = line[1].trim();
 
             var nodeLabel = wrap_text(nid);
-            var idx = nid.indexOf('_')
-            if (idx != -1){
-                nodeLabel = wrap_text(nid.slice(idx+1)) + '\n' + nid.slice(0,idx)
-            }
+            // var idx = nid.indexOf('_')
+            // if (idx != -1){
+            //     nodeLabel = wrap_text(nid.slice(idx+1)) + '\n' + nid.slice(0,idx)
+            // }
             netviz.nodes.update({id: nid, label: nodeLabel, title: make_tooltip(nid, text)});
         }
 
