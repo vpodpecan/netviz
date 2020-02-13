@@ -37,13 +37,16 @@ netviz.options = {
                     '</div>'
                 ].join(''),
                 callback: function (data) {
-                    if (!data) {
-                        return;
-                    }
-                    if (data.text == undefined)
-                        data.text = '';
-                    nodeData.label = data.label;
-                    nodeData.title = make_tooltip(data.label, data.text);
+                    // if (!data) {
+                    //     return;
+                    // }
+                    nodeData.label = data.label!=undefined ? data.label.trim() : undefined;
+                    nodeData.title = data.text!=undefined ? make_tooltip('', data.text.trim()): undefined;
+                    //
+                    // if (data.text == undefined)
+                    //     data.text = '';
+                    // nodeData.label = data.label;
+                    // nodeData.title = make_tooltip(data.label, data.text);
                     callback(nodeData);
                 }
             })
@@ -79,13 +82,12 @@ netviz.options = {
                     '</div>',
                 ].join(''),
                 callback: function (data) {
-                    if (!data) {
-                        return;
-                    }
-                    edgeData.label = data.label;
-                    edgeData.title = make_tooltip('', data.text);
+                    // if (!data) {
+                    //     return;
+                    // }
+                    edgeData.label = data.label!=undefined ? data.label.trim() : undefined;
+                    edgeData.title = data.text!=undefined ? make_tooltip('', data.text.trim()) : undefined;
                     edgeData.arrows = data.arrows;
-
                     callback(edgeData);
                 }
             })
@@ -126,8 +128,9 @@ netviz.options = {
             align: 'horizontal',
             color: '#808080'
         },
-        color: '#2B7CE9'
-
+        color: '#2B7CE9',
+        hoverWidth: function (width) {return width+1;},
+        selectionWidth: function (width) {return width+3;}
     },
 
    layout: {
@@ -167,19 +170,29 @@ function scale() {
     $('#networkView').height(verge.viewportH()-(20+50));
     $('#networkView').width($('#networkViewContainer').width());
     // $('#edgedata').height(verge.viewportH()/2-50);
-    $('#nodedata').height(verge.viewportH()-(100+50+30));
+    // $('#graphdata').height(verge.viewportH()-(100+50+30));
+    $('#edgedata').height(verge.viewportH()*(4/8)-135);
+    $('#nodedata').height(verge.viewportH()*(4/8)-135);
+
 }
 
 function fill_sample() {
-    var sampleData = [
-        'node1,term_node2,->,first edge,Some info text for this edge.',
-        'node1,node3,--,second edge,Some more text for this edge.',
-        'node1,node4,<-,third edge',
-        'term_node2,node4,<->,fourth edge',
-        '',
-        'node1,"Some info text, which includes delimiter"',
-        'term_node2,This is some text for node2.'].join('\n');
-    $('#nodedata').val(sampleData);
+    var sampleEdgeData = [
+        'node1,node2,arrow,label,text,color,width',
+        'node1,node2,->,edge1,label of first edge,green,2',
+        'node2,node3,--,edge2,label of second edge,"rgb(120,30,150)",10',
+        'node3,node4,<->,edge3,,#47EAFF,5',
+        'node4,node1,->'].join('\n');
+    $('#edgedata').val(sampleEdgeData);
+
+    var sampleNodeData = [
+        'node,text,color,shape',
+        'node1,first node,yellow,ellipse',
+        'node2,second node,"rgb(0,200,50)",box',
+        'node3,third node,orange,circle',
+        'node4,,,text',
+    ].join('\n');
+    $('#nodedata').val(sampleNodeData);
 }
 
 
@@ -274,66 +287,70 @@ function draw_graph() {
     releaseFreezeBtn();
     clear();
 
-    var csvdata = Papa.parse($('#nodedata').val(), {skipEmptyLines: true});
+    var edgedata = Papa.parse($('#edgedata').val(), {header: true, skipEmptyLines: true});
+    if (edgedata.meta.fields.indexOf('node1')==-1 || edgedata.meta.fields.indexOf('node2')==-1 || edgedata.meta.fields.indexOf('arrow')==-1) {
+        var html = [
+            '<h3>Error</h3>',
+            '<h5>Edge data csv requires a valid header!</h5>',
+            'mandatory columns:</br>',
+            '<strong>node1,node2,arrow</strong></br>',
+            'optional columns:</br>',
+            '<strong>label,text,color,width</strong><br>',
+            'Unknown columns are ignored.'].join('');
+        vex.dialog.alert({unsafeMessage: html});
+    }
+
     netviz.nodes = new vis.DataSet();
     netviz.edges = new vis.DataSet();
+    edgedata.data.forEach(function(rowobj, index, array) {
+        var fromNode = rowobj['node1'].trim();
+        var toNode = rowobj['node2'].trim();
+        var dir = rowobj['arrow'].trim();
+        var arrows = '';
+        if(dir=='->')
+            arrows = 'to';
+        else if(dir=='<-')
+            arrows = 'from';
+        else if(dir=='<->')
+            arrows = 'from,to';
+        else if(dir=='--')
+            arrows = '';
+        else
+            arrows = '';
 
-    csvdata.data.forEach(function(line, index, array) {
-        if (line.length >= 4) {
-            var fromNode = line[0].trim();
-            var toNode = line[1].trim();
-            var dir = line[2].trim();
-            var label = line[3].trim();
+        var label = rowobj['label']!=undefined && rowobj['label'].trim()!='' ? rowobj['label'].trim() : undefined;
+        var text = rowobj['text']!=undefined && rowobj['text'].trim()!='' ? make_tooltip('', rowobj['text'].trim()) : undefined;
+        var color = rowobj['color']!=undefined && rowobj['color'].trim()!='' ? rowobj['color'].trim() : undefined;
+        var width = rowobj['width']!=undefined && rowobj['width'].trim()!='' ? parseFloat(rowobj['width']) : 1;
 
-            var parts = undefined;
-            var fromNodeLabel = wrap_text(fromNode);
-            // var idx = fromNode.indexOf('_')
-            // if (idx != -1){
-            //     fromNodeLabel = wrap_text(fromNode.slice(idx+1)) + '\n' + fromNode.slice(0,idx)
-            // }
-
-            var toNodeLabel = wrap_text(toNode);
-            // var idx = toNode.indexOf('_')
-            // if (idx != -1){
-            //     toNodeLabel = wrap_text(toNode.slice(idx+1)) + '\n' + toNode.slice(0,idx);
-            // }
-
-            var arrows = '';
-            if(dir=='->')
-                arrows = 'to';
-            else if(dir=='<-')
-                arrows = 'from';
-            else if(dir=='<->')
-                arrows = 'from,to';
-            else if(dir=='--')
-                arrows = '';
-            else
-                arrows = '';
-
-            // netviz.nodes.update({id: fromNode, label: fromNodeLabel, title: make_tooltip(fromNode, '')});
-            // netviz.nodes.update({id: toNode, label: toNodeLabel, title: make_tooltip(toNode, '')});
-            netviz.nodes.update({id: fromNode, label: fromNodeLabel});
-            netviz.nodes.update({id: toNode, label: toNodeLabel});
-
-            if(line.length >= 5) {
-                netviz.edges.add({id: index, from: fromNode, to: toNode, label: label, arrows: arrows, title: make_tooltip('', line[4].trim())});
-            }
-            else
-                netviz.edges.add({id: index, from: fromNode, to: toNode, label: label, arrows: arrows})
-        }
-        else if (line.length == 2) {
-            var nid = line[0].trim();
-            var text = line[1].trim();
-
-            var nodeLabel = wrap_text(nid);
-            // var idx = nid.indexOf('_')
-            // if (idx != -1){
-            //     nodeLabel = wrap_text(nid.slice(idx+1)) + '\n' + nid.slice(0,idx)
-            // }
-            netviz.nodes.update({id: nid, label: nodeLabel, title: make_tooltip(nid, text)});
-        }
-
+        netviz.nodes.update({id: fromNode, label: wrap_text(fromNode)});
+        netviz.nodes.update({id: toNode, label: wrap_text(toNode)});
+        netviz.edges.add({id: index, from: fromNode, to: toNode, label: label, arrows: arrows, title: text, width: width, color: color, arrowStrikethrough:false});
     })
+
+
+    var nodedata = Papa.parse($('#nodedata').val(), {header: true, skipEmptyLines: true});
+    if (nodedata.meta.fields.length && nodedata.meta.fields.indexOf('node')==-1) {
+        var html = [
+            '<h3>Error</h3>',
+            '<h5>If not empty, node csv data requires a valid header!</h5>',
+            'mandatory columns:</br>',
+            '<strong>node</strong></br>',
+            'optional columns:</br>',
+            '<strong>text,color,shape</strong></br>',
+            'Unknown columns are ignored.'].join('');
+        vex.dialog.alert({unsafeMessage: html});
+    }
+
+    nodedata.data.forEach(function(rowobj, index, array) {
+        var node = rowobj['node']!=undefined && rowobj['node'].trim()!='' ? rowobj['node'].trim() : undefined;
+        var text = rowobj['text']!=undefined && rowobj['text'].trim()!='' ? wrap_text(make_tooltip('', rowobj['text'].trim())) : undefined;
+        var color = rowobj['color']!=undefined && rowobj['color'].trim()!='' ? rowobj['color'].trim() : undefined;
+        var shape = rowobj['shape']!=undefined && rowobj['shape'].trim()!='' ? rowobj['shape'] : undefined;
+
+        netviz.nodes.update({id: node, label: node, title: text, color: {background: color}, shape: shape});
+    })
+
 
       // create a network
       var container = document.getElementById('networkView');
@@ -353,6 +370,7 @@ function draw_graph() {
       //     // netviz.network.redraw();
       // })
 }
+
 
 function onDragStart(obj) {
     if (obj.hasOwnProperty('nodes') && obj.nodes.length==1) {
@@ -419,7 +437,27 @@ function showSettings() {
     return;
 }
 
-function loadCSV(evt){
+function loadEdgeCSV(evt){
+    $( "#myModal" ).dialog('close');
+    var file = evt.target.files[0];
+    if(!file)
+        return;
+    var reader = new FileReader();
+    reader.readAsText(file);
+    reader.onload = function(event) {
+        $('#edgedata').val(event.target.result);
+    };
+    reader.onerror = function() {
+        vex.dialog.alert('Error while reading ' + file.fileName);
+    };
+    var dname = evt.target.files[0].name;
+    if (dname.length > 25)
+        dname = dname.slice(0,25) + '...'
+    $('#edgecsvfile').text(dname);
+}
+
+
+function loadNodeCSV(evt){
     $( "#myModal" ).dialog('close');
     var file = evt.target.files[0];
     if(!file)
@@ -435,8 +473,9 @@ function loadCSV(evt){
     var dname = evt.target.files[0].name;
     if (dname.length > 25)
         dname = dname.slice(0,25) + '...'
-    $('#flab2').text(dname);
+    $('#nodecsvfile').text(dname);
 }
+
 
 function createSettingsDialog() {
     $( "#myModal" ).dialog({
@@ -455,12 +494,14 @@ function createSettingsDialog() {
 
 function formatNodeInfoVex(nid) {
     var text = netviz.nodes.get(nid).title == undefined ? "No additional information is available" : netviz.nodes.get(nid).title;
-    return vsprintf('<h5>%s</h5><p>%s</p>', [netviz.nodes.get(nid).label, text]);
+    var title = netviz.nodes.get(nid).label == undefined ? String(nid) : netviz.nodes.get(nid).label;
+    return vsprintf('<h5>%s</h5><p>%s</p>', [title, text]);
 }
 
 function formatEdgeInfoVex(eid) {
     var text = netviz.edges.get(eid).title == undefined ? "No additional information is available" : netviz.edges.get(eid).title;
-    return vsprintf('<h5>%s</h5><p>%s</p>', [netviz.edges.get(eid).label, text]);
+    var title = netviz.edges.get(eid).label == undefined ? String(eid) : netviz.edges.get(eid).label;
+    return vsprintf('<h5>%s</h5><p>%s</p>', [title, text]);
 }
 
 
@@ -572,7 +613,14 @@ $(document).ready(function () {
     $('#drawGraphButton').click(draw_graph)
     $('#freezeBtn').click(freeze);
     $('#configButton').click(showSettings);
-    $(document).on('change', '#csvfileupload' , loadCSV);
+    $('#clearEdgeDataButton').click(function(){$('#edgedata').val('')});
+    $('#clearNodeDataButton').click(function(){
+        $('#nodedata').val('');
+        $('#edgecsvfile').val('');
+    });
+    $(document).on('change', '#edgecsvfileupload' , loadEdgeCSV);
+    $(document).on('change', '#nodecsvfileupload' , loadNodeCSV);
+
     // create dialog and hide it
     createSettingsDialog();
     $( "#myModal" ).dialog('close');

@@ -2,14 +2,11 @@ body {
     overflow-y: hidden;
 }
 #networkView {
-/* width: 100%;
-height: 600px; */
-/* min-height: 600px; */
 border: 1px solid lightgray;
 }
 
 
-#nodedata {
+#edgedata, #nodedata {
   width: 100%;
   resize: none;
   border: 1px solid lightgray;
@@ -41,49 +38,18 @@ border: 1px solid lightgray;
     /* background-color: darkgrey; */
 }
 
-#csvFileInput{
-    /* max-width: 200px; */
-}
-
-
-#flab1.custom-file-label,
-#flab1.custom-file-label::after,
-#flab2.custom-file-label,
-#flab2.custom-file-label::after {
+#edgecsvfile.custom-file-label,
+#edgecsvfile.custom-file-label::after,
+#nodecsvfile.custom-file-label,
+#nodecsvfile.custom-file-label::after {
   height: auto;
   padding-top: 3px;
   padding-bottom: 3px;
 }
 
-
-
-/* #myModal {
-    visibility: hidden;
-} */
-
-/* #myModal {
-  position: relative;
-} */
-
-/* .modal-dialog {
-  position: fixed;
-  width: 100%;
-  margin: 0;
-  padding: 1px;
-}
-
-.modal-header{
-     background-color: #CDE1FF;
-
-}
-.modal-content {
-    overflow:hidden;
-} */
-
 #myModal {
     line-height: normal;
 }
-
 
 
 /*  vis.js styles  */

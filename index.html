@@ -46,10 +46,10 @@
 
 
     <link href="main.min.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="main.min.js"></script>
+    <!-- <script type="text/javascript" src="main.min.js"></script> -->
 
-    <!-- <link href="main.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="main.js"></script> -->
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="main.js"></script>
 
     <title>NetViz</title>
 
@@ -68,36 +68,42 @@
           <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
               <div class="row">
                   <div class="col-12">
-                      <label for="nodedata"><strong>Network data in CSV format</strong></label>
-                      <textarea id="nodedata"></textarea>
+                      <label for="edgedata"><strong>Edge data in CSV format</strong></label>
+                      <textarea id="edgedata"></textarea>
                   </div>
               </div>
 
-              <!-- <div class="row h-auto">
-                  <div id="settings" class="col-12">
-                  </div>
-              </div> -->
-
-
               <div class="row">
-                  <div class="col-12">
-
+                  <div class="col-10">
                         <div class="custom-file">
-                          <input id="csvfileupload" type="file" class="custom-file-input" id="csvFileInput" aria-describedby="flab1" accept=".csv,.tsv,.txt">
-                          <label id="flab2" class="custom-file-label" for="csvFileInput">Choose file</label>
+                          <input id="edgecsvfileupload" type="file" class="custom-file-input" aria-describedby="edgecsvfile" accept=".csv,.tsv,.txt">
+                          <label id="edgecsvfile" class="custom-file-label" for="edgecsvfileupload">Choose file</label>
                         </div>
-
-                          <!-- <div class="input-group">
-                            <div class="custom-file">
-                              <input type="file" class="custom-file-input" id="csvFileInput">
-                              <label id="flab" class="custom-file-label" for="inputGroupFile04">Choose file</label>
-                            </div>
-                        </div> -->
-
+                    </div>
+                    <div class="col-2">
+                        <button id="clearEdgeDataButton" type="button" class="btn btn-outline-secondary btn-sm float-right"><span class="oi oi-trash"></span></button>
                     </div>
                 </div>
 
 
+              <div class="row">
+                  <div class="col-12">
+                      <label for="nodedata"><strong>Node data in CSV format (optional)</strong></label>
+                      <textarea id="nodedata"></textarea>
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-10">
+                        <div class="custom-file">
+                          <input id="nodecsvfileupload" type="file" class="custom-file-input" aria-describedby="nodecsvfile" accept=".csv,.tsv,.txt">
+                          <label id="nodecsvfile" class="custom-file-label" for="nodecsvfileupload">Choose file</label>
+                        </div>
+                  </div>
+                  <div class="col-2">
+                      <button id="clearNodeDataButton" type="button" class="btn btn-outline-secondary btn-sm float-right"><span class="oi oi-trash"></span></button>
+                  </div>
+                </div>
 
                 <div class="row">
                         <div class="col-12">
@@ -106,19 +112,8 @@
                          <button id="configButton" type="button" class="btn btn-outline-info btn-sm float-right"><span class="oi oi-cog"></span></button>
                         </div>
 
-
-                        <!-- <div class="col-4">
-                            <div class="progress">
-                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-                           </div>
-                        </div> -->
-
                 </div>
           </div>
-
-          <!-- </div> -->
-
-
 
           <div class="col-6 col-sm-6 col-md-8 col-lg-9 col-xl-9" id="networkViewContainer">
               <div id="networkView">
@@ -139,31 +134,6 @@
         <span class="text-muted">Developed by <a href="http://kt.ijs.si/vid_podpecan/">Vid Podpečan</a></span>
       </div>
     </footer>
-
-    <!-- <div id="vizSettings" title="Settings">
-      <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
-    </div> -->
-
-
-    <!-- <div id="myModal" class="modal" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Visualization settings</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div id="myModalBody" class="modal-body">
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- <div id="myModal" title="Basic dialog">
-      <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
-    </div> -->
-
 
     <div id="myModal" title="Visualization settings">
     </div>
