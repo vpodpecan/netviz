@@ -346,7 +346,7 @@ function draw_graph() {
         var node = rowobj['node']!=undefined && rowobj['node'].trim()!='' ? rowobj['node'].trim() : undefined;
         var text = rowobj['text']!=undefined && rowobj['text'].trim()!='' ? wrap_text(make_tooltip('', rowobj['text'].trim())) : undefined;
         var color = rowobj['color']!=undefined && rowobj['color'].trim()!='' ? rowobj['color'].trim() : undefined;
-        var shape = rowobj['shape']!=undefined && rowobj['shape'].trim()!='' ? rowobj['shape'] : undefined;
+        var shape = rowobj['shape']!=undefined && rowobj['shape'].trim()!='' ? rowobj['shape'] : 'box';
 
         netviz.nodes.update({id: node, label: node, title: text, color: {background: color}, shape: shape});
     })
