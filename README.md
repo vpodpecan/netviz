@@ -12,5 +12,25 @@ Download the repository and open the `index.html` file in your browser. Check th
 #### Author
 Vid Podpečan <vid.podpecan@ijs.si>
 
+
 #### License
 MIT
+
+
+#### How to cite
+
+If you use NetViz in your research please cite the following publication:
+
+```bibtex
+@inproceedings{netviz2020,
+    title = "The {N}et{V}iz terminology visualization tool and the use cases in karstology domain modeling",
+    author = "Pollak, Senja and Podpe{\v{c}}an, Vid  and Miljkovic, Dragana and Stepi{\v{s}}nik, Uro{\v{s}} and Vintar, {\v{S}}pela",
+    booktitle = "Proceedings of the 6th International Workshop on Computational Terminology",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    pages = "55--61",
+    ISBN = "979-10-95546-57-3"
+}
+```
