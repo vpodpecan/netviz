@@ -1,0 +1,20 @@
+node1,node2,arrow,label
+A. Landform,Category,->,is a
+A.1 Surface landform,A. Landform,->,is a
+A.2 Underground landform,A. Landform,->,is a
+A.3 Hydrological form,A. Landform,->,is a
+A.4 Other,A. Landform,->,is a
+B. Process,Category,->,is a
+B.1 Movement,B. Process,->,is a
+B.2 Loss,B. Process,->,is a
+B.3 Addition,B. Process,->,is a
+B.4 Transformation,B. Process,->,is a
+C. Geome,Category,->,is a
+D. Element/Entity/Property,Category,->,is a
+D.1 Abiotic,D. Element/Entity/Property,->,is a
+D.2 Biotic,D. Element/Entity/Property,->,is a
+D.3 Property,D. Element/Entity/Property,->,is a
+D.3.1 Geolocation,D.3 Property,->,is a
+E. Instrument or method,Category,->,is a
+E.1 Instrument,E. Instrument or method,->,is a
+E.2 Method,E. Instrument or method,->,is a

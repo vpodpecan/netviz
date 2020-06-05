@@ -1,0 +1,1392 @@
+node1,node2,arrow,label
+A. Landform,Category,->,
+A.1 Surface landform,A. Landform,->,
+A.2 Underground landform,A. Landform,->,
+A.3 Hydrological form,A. Landform,->,
+A.4 Other,A. Landform,->,
+B. Process,Category,->,
+B.1 Movement,B. Process,->,
+B.2 Loss,B. Process,->,
+B.3 Addition,B. Process,->,
+B.4 Transformation,B. Process,->,
+C. Geome,Category,->,
+D. Element/Entity/Property,Category,->,
+D.1 Abiotic,D. Element/Entity/Property,->,
+D.2 Biotic,D. Element/Entity/Property,->,
+D.3 Property,D. Element/Entity/Property,->,
+D.3.1 Geolocation,D.3 Property,->,
+E. Instrument or method,Category,->,
+E.1 Instrument,E. Instrument or method,->,
+E.2 Method,E. Instrument or method,->,
+breccia,D.1 Abiotic,->,
+of rock,breccia,->,has form
+canopy,A.2 Underground landform,->,
+consisting of a flowstone cover of a bedrock projection and of a fringe of stalactites or shawls on the outer edge,canopy,->,has form
+canyon,A.1 Surface landform,->,
+canyon,A.2 Underground landform,->,
+deep valley with steep to vertical walls,canyon,->,has form
+frequently formed by a river rising on impervious rocks outside the karst area,canyon,->,has cause
+"deep , elongated cavity",canyon,->,has form
+forming a cave passage,canyon,->,has function
+cut by running water in the roof or floor of a cave,canyon,->,has cause
+cave,A.2 Underground landform,->,
+in rock,cave,->,composed
+large enough to be entered by man,cave,->,has size
+cave blister,A.2 Underground landform,->,
+almost perfect hemisphere,cave blister,->,has form
+cave coral,A.2 Underground landform,->,
+usually occurring in numbers in patches,cave coral,->,has form
+very small,cave coral,->,has size
+cave earth,D.1 Abiotic,->,
+in a cave,cave earth,->,is located
+in a cave,corridor,->,is located
+in a cave,cave formation,->,is located
+in a cave,cave ice,->,is located
+in a cave,chute,->,is located
+in a cave,backflooding,->,is located
+in a cave,chamber,->,is located
+in a cave,keyhole,->,is located
+in a cave,cave breccia,->,is located
+in a cave,shaft,->,is located
+cave ecology,E.2 Method,->,
+cave fill,D.1 Abiotic,->,
+cover the bedrock floor,cave fill,->,is located
+cave pearl,A.2 Underground landform,->,
+smooth ### polished ### rounded,cave pearl,->,has form
+found in shallow hollows into which water drips,cave pearl,->,is located
+cave spring,A.3 Hydrological form,->,
+inside a cave,cave spring,->,is located
+from rock or sediment,cave spring,->,composed
+cave system,A.2 Underground landform,->,
+cavern,A.2 Underground landform,->,
+within a cave,cavern,->,is located
+very large,cavern,->,has size
+cenote,A.1 Surface landform,->,
+wall-sided,cenote,->,has form
+halb-kugel,A.1 Surface landform,->,
+A hemispheric hill,halb-kugel,->,has form
+A hemispheric hill,cupola,->,has form
+A hemispheric hill,cupole,->,has form
+cupola,A.1 Surface landform,->,
+cupole,A.1 Surface landform,->,
+scallop,A.2 Underground landform,->,
+Shallow ### asymmetrical,scallop,->,has form
+Shallow ### asymmetrical,current marking,->,has form
+caused by turbulent waterflow,scallop,->,has cause
+caused by turbulent waterflow,current marking,->,has cause
+distributed in rather regular fashion over limestone surfaces,scallop,->,is located
+distributed in rather regular fashion over limestone surfaces,current marking,->,is located
+current marking,A.2 Underground landform,->,
+curtain,A.2 Underground landform,->,
+often translucent and resonant,curtain,->,has form
+often translucent and resonant,bacon,->,has form
+often translucent and resonant,drapery,->,has form
+often translucent and resonant,blanket,->,has form
+hanging from the roof or projecting from the wall of a cave,curtain,->,is located
+hanging from the roof or projecting from the wall of a cave,bacon,->,is located
+hanging from the roof or projecting from the wall of a cave,drapery,->,is located
+hanging from the roof or projecting from the wall of a cave,blanket,->,is located
+bacon,A.2 Underground landform,->,
+drapery,A.2 Underground landform,->,
+blanket,A.2 Underground landform,->,
+cutter,A.1 Surface landform,->,
+Solution crevice in limestone,cutter,->,has form
+underlying residual phosphate deposits,cutter,->,is located
+Karren-like,cutter,->,has form
+Karren-like,subsoil karren,->,has form
+Karren-like,karren,->,has form
+formed beneath the soil,cutter,->,is located
+formed beneath the soil,subsoil karren,->,is located
+formed beneath the soil,karren,->,is located
+formed beneath the soil,bodenkarren,->,is located
+subsoil karren,A.1 Surface landform,->,
+karren,A.1 Surface landform,->,
+dead cave,A.2 Underground landform,->,
+in which all solution and precipitation has cersed,dead cave,->,has cause
+doline,A.1 Surface landform,->,
+basin - or funnel-shaped,doline,->,has form
+formed mainly by direct solution of the limestone surface zone,doline,->,has cause
+ranging in diameter from a few meters to a kilometer,doline,->,has size
+doline lake,A.3 Hydrological form,->,
+occupying a doline,doline lake,->,is located
+small,doline lake,->,has size
+small,keyhole,->,has size
+small,blowhole,->,has size
+small,meanderkarren,->,has size
+small,sinking creek,->,has size
+small,rainpits,->,has size
+dolomite,D.1 Abiotic,->,
+dolostone,D.1 Abiotic,->,
+dolomitization,B. Process,->,
+whereby limestone becomes dolomite,dolomitization,->,has function
+by the substitution of magnesium carbonate for part of the original calcium carbonate,dolomitization,->,has cause
+thin sheet,bacon,->,has form
+thin sheet,curtain,->,has form
+thin sheet,blanket,->,has form
+thin sheet,drapery,->,has form
+driphole,A.2 Underground landform,->,
+produced by fast-dripping water,driphole,->,has cause
+Hollow,driphole,->,has form
+Hollow,capillary stalagmite,->,has form
+"surrounded by precipitated material , such as the bottom of a stalactite",driphole,->,is located
+flowstone,D.1 Abiotic,->,
+deposited from water dripping from the ceiling or wall of a cave or from the overhanging edge of a rock shelter,flowstone,->,has cause
+deposited from water dripping from the ceiling or wall of a cave or from the overhanging edge of a rock shelter,dripstone,->,has cause
+dripstone,D.1 Abiotic,->,
+dry cave,A.2 Underground landform,->,
+collapse breccia,D.1 Abiotic,->,
+"has formed as the result of the collapse of the roof of a cave , of an underlying cave , or of an overhanging ledge",collapse breccia,->,has cause
+collapse sink,A.1 Surface landform,->,
+closed,collapse sink,->,has form
+closed,dolines,->,has form
+closed,sinkholes,->,has form
+formed by the collapse of tie roof of a cave,collapse sink,->,has cause
+conduit,A.3 Hydrological form,->,
+subterranean,conduit,->,is located
+subterranean,dead end,->,is located
+subterranean,cul-de-sac,->,is located
+subterranean,caves,->,is located
+cone karst,C. Geome,->,
+characterized by star-shaped depressions,cone karst,->,has form
+common in the tropicr,cone karst,->,is located
+constructive waterfall,A.3 Hydrological form,->,
+on a surface stream,constructive waterfall,->,is located
+large,constructive waterfall,->,has size
+large,ceiling block,->,has size
+large,collapse dolines,->,has size
+large,dome,->,has size
+large,uvalas,->,has size
+large,boiling spring,->,has size
+large,polje,->,has size
+large,karst poljes,->,has size
+conulite,A.2 Underground landform,->,
+"hollow , cone-shaped",conulite,->,has form
+formed when a conical depression is drilled in cave mud by falling water,conulite,->,has cause
+corridor,A.2 Underground landform,->,
+corridor,A.1 Surface landform,->,
+level and straight,corridor,->,has form
+Intersecting linear depressions,corridor,->,has form
+on the surface of the land,corridor,->,is located
+corrosion,B. Process,->,
+corrosion,B.2 Loss,->,
+by solution or chemical action,corrosion,->,has cause
+by solution or chemical action,corrasion,->,has cause
+corrasion,B. Process,->,
+cove,A.1 Surface landform,->,
+Narrow steep-sided,cove,->,has form
+flanking limestone plateaus,cove,->,is located
+crawl,A.2 Underground landform,->,
+crescentic wall niche,crawl,->,has form
+crescentic wall niche,crawlway,->,has form
+that must be negotiated on hands and knees,crawl,->,has size
+that must be negotiated on hands and knees,crawlway,->,has size
+crawlway,A.2 Underground landform,->,
+crevice karst,C. Geome,->,
+intricate irregular,crevice karst,->,has form
+has formed by solution widening of closely spaced joints,crevice karst,->,has cause
+near rivers,crevice karst,->,is located
+Crevices may be as much as 6 meters across and 20 meters deep,crevice karst,->,has size
+crust stone,D.1 Abiotic,->,
+looks like a flaky crust,crust stone,->,has form
+covering portions of walls of caves,crust stone,->,is located
+crystal cave,A.2 Underground landform,->,
+crystal pool,A.3 Hydrological form,->,
+generally having little or no overflow,crystal pool,->,has function
+In caves,crystal pool,->,is located
+dead end,A.2 Underground landform,->,
+having only one entry,dead end,->,has form
+having only one entry,cul-de-sac,->,has form
+cul-de-sac,A.2 Underground landform,->,
+oulo - pholite,A.2 Underground landform,->,
+elongate curved,oulo - pholite,->,has form
+elongate curved,gypsum flower,->,has form
+elongate curved,cave flower,->,has form
+on a cave wall,oulo - pholite,->,is located
+on a cave wall,gypsum flower,->,is located
+on a cave wall,cave flower,->,is located
+gypsum flower,A.2 Underground landform,->,
+cave flower,A.2 Underground landform,->,
+cave formation,A.2 Underground landform,->,
+"formed by the accumulation , dripping , or flowing of water",cave formation,->,has cause
+cave group,A.2 Underground landform,->,
+cave guano,D.2 Biotic,->,
+in some places partially mineralized,cave guano,->,has form
+in caves,cave guano,->,is located
+in caves,anastamose,->,is located
+in caves,fungi,->,is located
+cave ice,A.2 Underground landform,->,
+formed by natural freezing of water,cave ice,->,has cause
+cave-in,B. Process,->,
+The collapse of the ceiling or side walls of a cave or of the land surface into a subterranean passage as a result of undermining or of pressure from above,cave-in,->,has cause
+cave marble,A.2 Underground landform,->,
+Banded,cave marble,->,has form
+capable of taking a high polish,cave marble,->,has function
+pisolith,A.2 Underground landform,->,
+formed by concentric precipitation around a nucleus,pisolith,->,has cause
+formed by concentric precipitation around a nucleus,pisolite,->,has cause
+formed by concentric precipitation around a nucleus,cave pearl,->,has cause
+Small,pisolith,->,has size
+Small,pisolite,->,has size
+Small,cave pearl,->,has size
+Small,sinkhole pond,->,has size
+Small,rill,->,has size
+pisolite,A.2 Underground landform,->,
+cave series,A.2 Underground landform,->,
+in a particular district,cave series,->,is located
+"in a cave , cave system",cave spring,->,is located
+underground,cave spring,->,is located
+underground,caves,->,is located
+underground,conduit,->,is located
+underground,cave,->,is located
+underground,vertical shafts,->,is located
+larger-than-average size,cavern,->,has size
+ceiling block,A.2 Underground landform,->,
+cubical,ceiling block,->,has form
+ceiling cavity,A.2 Underground landform,->,
+Solutional,ceiling cavity,->,has cause
+in the ceiling of a cave,ceiling cavity,->,is located
+ceiling meander,A.2 Underground landform,->,
+winding upside-down channel,ceiling meander,->,has form
+in a cave ceiling,ceiling meander,->,is located
+ceiling slab,A.2 Underground landform,->,
+thin,ceiling slab,->,has form
+thin,roof slab,->,has form
+that has fallen from the ceiling of a cave in roughly horizontal limestone,ceiling slab,->,has cause
+that has fallen from the ceiling of a cave in roughly horizontal limestone,roof slab,->,has cause
+extensive,ceiling slab,->,has size
+extensive,roof slab,->,has size
+roof slab,A.2 Underground landform,->,
+lampenflora,D.2 Biotic,->,
+"growing on illuminated areas such as rocky surfaces , sediment and artificial materials around lamps",lampenflora,->,is located
+kras,D.3.1 Geolocation,->,
+epikarst aquifer,C. Geome,->,
+saturated,epikarst aquifer,->,has form
+that stores a part of the infiltrated water,epikarst aquifer,->,has function
+within the superficial part of the karst,epikarst aquifer,->,is located
+dry valleys,A.1 Surface landform,->,
+time series analysis,E. Instrument or method,->,
+mostly used to improve the understanding of the hydrological behaviour of karst systems,time series analysis,->,has function
+speleogenesis,B. Process,->,
+speleogenesis,B.4 Transformation,->,
+"critically depends on both , the aggressiveness of groundwater and its circulation ( movement )",speleogenesis,->,has cause
+groundwater,D.1 Abiotic,->,
+tafoni geomorphology,A.1 Surface landform,->,
+a hollow shape,tafoni geomorphology,->,has form
+carved by erosion,tafoni geomorphology,->,has cause
+in the coastal carbonates,tafoni geomorphology,->,composed
+rounded several decimeters to several meters,tafoni geomorphology,->,has size
+littoral caves,A.2 Underground landform,->,
+formed primarily by wave action,littoral caves,->,has cause
+formed primarily by wave action,sea caves,->,has cause
+sea caves,A.2 Underground landform,->,
+spring mounds,D.2 Biotic,->,
+hot beds of biological activity,spring mounds,->,has function
+In desert environments,spring mounds,->,is located
+tend to be zones of high PCO2,spring mounds,->,composed
+epigenesis,B. Process,->,
+hypogene karstification,B. Process,->,
+upward,hypogene karstification,->,has form
+topographically depressed,doline,->,has form
+caves,A.2 Underground landform,->,
+natural,caves,->,has form
+natural,karst poljes,->,has cause
+natural,cenote,->,has cause
+natural,karst bridge,->,has cause
+natural,pseudokarstic caves,->,has cause
+cave passages,A.2 Underground landform,->,
+"either by alluviation , or upwards dissolution through a process commonly known as paragenesis",cave passages,->,has cause
+in a vadose environment,cave passages,->,is located
+epiphreatic zone,C. Geome,->,
+between the highest and lowest levels that the water table fluctuates between,epiphreatic zone,->,has size
+specific karstic ablation,D.3 Property,->,
+poljes,A.1 Surface landform,->,
+they are one of the rare formations that can support large-scale agriculture,poljes,->,has function
+blind valley,A.1 Surface landform,->,
+that terminates abruptly,blind valley,->,has form
+at a point where the stream sinks,blind valley,->,is located
+ghost rock karstification,B. Process,->,
+intermediate,ghost rock karstification,->,has form
+where the action of water occurs only as it filters in through fractures,ghost rock karstification,->,has cause
+for example like in granites,ghost rock karstification,->,composed
+dolines,A.1 Surface landform,->,
+sign of the current shaping of the surface by precipitation water that percolates vertically through it and passes through the vadose part of the aquifer to the underground water,dolines,->,has cause
+unroofed caves,A.2 Underground landform,->,
+is the consequence of the type and shape of the cave,unroofed caves,->,has cause
+"various geological , geomorphological , climate , and hydrological conditions",unroofed caves,->,composed
+karst waters,A.3 Hydrological form,->,
+natural source and a public and economic good,karst waters,->,has function
+lakes,A.3 Hydrological form,->,
+is the consequence of the difference in the volumes of inflowing and outflowing water,lakes,->,has cause
+on the majority of larger karst poljes,lakes,->,is located
+karst poljes,A.1 Surface landform,->,
+important regulators of water conditions,karst poljes,->,has function
+in rivers in the lower parts of river basins,karst poljes,->,is located
+closed depressions,A.1 Surface landform,->,
+closed depressions,poljes,->,has size
+on karstic surfaces,closed depressions,->,is located
+equipotential surfaces,D.1 Abiotic,->,
+of equal hydraulic head,equipotential surfaces,->,has size
+collapse dolines,A.1 Surface landform,->,
+that were formed with slow collapsing of roofs,collapse dolines,->,has cause
+above larger underground cavities,collapse dolines,->,is located
+in karst terrains,caves,->,is located
+bowlshaped doline,A.1 Surface landform,->,
+"In instances where dissolution is the prevailing mechanism , a bowlshaped doline will probably form",bowlshaped doline,->,has cause
+point-recharge doline,A.1 Surface landform,->,
+inception doline,A.1 Surface landform,->,
+that also originates from the centripetal convergence of water,inception doline,->,has cause
+this occurs inside a pre-existing hydrogeological structure,inception doline,->,is located
+ceiling tube,A.2 Underground landform,->,
+remaining in the ceiling of a cave,ceiling tube,->,is located
+Steep-walled,cenote,->,has form
+extends below the water tabl,cenote,->,is located
+chalk,D.1 Abiotic,->,
+Soft poorly indurated,chalk,->,has form
+in a matrix of verv finely crystalline calcite,chalk,->,is located
+chamber,A.2 Underground landform,->,
+in a cave or cave system,chamber,->,is located
+The largest,chamber,->,has size
+chasm,A.1 Surface landform,->,
+deep,chasm,->,has form
+deep,sotano,->,has size
+in the earth's surface,chasm,->,is located
+chimney,A.2 Underground landform,->,
+A narrow vertical shaft,chimney,->,has form
+in the roof of a cave,chimney,->,is located
+in the roof of a cave,dome,->,is located
+generally smaller than an aven,chimney,->,has size
+chockstone,A.2 Underground landform,->,
+wedged between the walls of a cave passage,chockstone,->,is located
+choke,D.1 Abiotic,->,
+completely blocking a passage,choke,->,has function
+chute,A.2 Underground landform,->,
+inclined channel or trough,chute,->,has form
+clay fill,D.1 Abiotic,->,
+that fills a cave passage,clay fill,->,has function
+clay filling,B. Process,->,
+flachkarren,A.1 Surface landform,->,
+"Widened joints , or grikes , isolate individual clints",flachkarren,->,has form
+"Widened joints , or grikes , isolate individual clints",clint,->,has form
+forming a pavement,flachkarren,->,has function
+forming a pavement,clint,->,has function
+parallel to the bedding,flachkarren,->,is located
+parallel to the bedding,clint,->,is located
+parallel to the bedding,limestone pavement,->,is located
+clint,A.1 Surface landform,->,
+closed depression,A.1 Surface landform,->,
+enclosed,closed depression,->,has form
+having no external drainage,closed depression,->,has function
+cockpit,A.1 Surface landform,->,
+star-shaped,cockpit,->,has form
+Cockpits are the common type of closed depressions in a Kegelkarst,cockpit,->,is located
+cockpit karst,C. Geome,->,
+Tropical,cockpit karst,->,is located
+geological processes,B. Process,->,
+"between the lithosphere , the hydrosphere , the atmosphere and the biosphere",geological processes,->,is located
+"the forms of CO3 ( mainly CaCO , MgCO ) , HCO , CO , CH , and ( CH O ) n ( organic carbon",geological processes,->,composed
+karst springs,A.3 Hydrological form,->,
+between the subsurface and the surface environments,karst springs,->,is located
+carbonate reactions,B. Process,->,
+In karst regions of the world,carbonate reactions,->,is located
+gypsum crusts,A.1 Surface landform,->,
+form as corrosion residues,gypsum crusts,->,has cause
+thus enhancing secondary porosity and hydraulic conductivity,dolomitization,->,has function
+epikarst,C. Geome,->,
+permeable boundary,epikarst,->,has function
+between the surface and subsurface environments,epikarst,->,is located
+hyporheic zone,C. Geome,->,
+that has a variable thickness and lateral extent,hyporheic zone,->,has form
+through which surface water and groundwater exchange and mix,hyporheic zone,->,has function
+sand,A.4 Other,->,
+which was well washed,sand,->,has form
+goethite,D.1 Abiotic,->,
+but can also be created as a precipitate in marshes and springs,goethite,->,has cause
+"are the result of dripping , running , trickling , trapped , condensed water etc",flowstone,->,has cause
+lowland,C. Geome,->,
+with gently sloping hills,lowland,->,has form
+lower,lowland,->,is located
+fluvial karst forms,A.1 Surface landform,->,
+that can be found particularly on flat parts of land,fluvial karst forms,->,is located
+that can be found particularly on flat parts of land,mesoforms,->,is located
+can amount to several 10 per km2,fluvial karst forms,->,has size
+can amount to several 10 per km2,mesoforms,->,has size
+mesoforms,A.1 Surface landform,->,
+scallops,A.2 Underground landform,->,
+shallow,scallops,->,has form
+that are shaped by eddies,scallops,->,has cause
+up to a few cm long,scallops,->,has size
+active cave,A.2 Underground landform,->,
+containing a running stream,active cave,->,has function
+aggressive water,D.1 Abiotic,->,
+having the ability to dissolve rocks,aggressive water,->,has function
+anastomosis,A.2 Underground landform,->,
+A complex of many irregular and repeatedly connected passages,anastomosis,->,has form
+in a cave or in a solution - sculptured rock,anastomosis,->,is located
+anthodite,A.2 Underground landform,->,
+feathery or radiating,anthodite,->,has form
+apron,D.1 Abiotic,->,
+smooth,apron,->,has form
+covering sloping projections from walls of caves or limestone cliffs,apron,->,is located
+aquifer,C. Geome,->,
+will yield water to a well or spring,aquifer,->,has function
+aragonite,D.1 Abiotic,->,
+like calcite but differing in crystal form,aragonite,->,has form
+pinnacle karst,C. Geome,->,
+pinnacle karst,A.1 Surface landform,->,
+ridges rise above forest-covered corridors and depressions,pinnacle karst,->,has form
+ridges rise above forest-covered corridors and depressions,arete,->,has form
+a relief of as much as 120 meters,pinnacle karst,->,has size
+a relief of as much as 120 meters,arete,->,has size
+arete,C. Geome,->,
+backflooding,B. Process,->,
+caused downstream passage being too small to pass an abnormally high discharge,backflooding,->,has cause
+Thin ### elongated ### translucent,bacon,->,has form
+projecting from roofs and walls of some caves,bacon,->,is located
+balcony,A.2 Underground landform,->,
+on the wall of a cave,balcony,->,is located
+large enough to support one or more persons,balcony,->,has size
+beachrock,D.1 Abiotic,->,
+friable to indurated,beachrock,->,has form
+occurs in thin beds dipping seaward at less than 15,beachrock,->,is located
+bedding-plane cave,A.2 Underground landform,->,
+especially when there is a difference in susceptibility to corrosion in the two beds,bedding-plane cave,->,has cause
+formed along a bedding plane,bedding-plane cave,->,is located
+blade,A.2 Underground landform,->,
+of which it is an integral part,blade,->,has form
+generally the remains of a partition or bridge,blade,->,has cause
+In a cave,blade,->,is located
+In a cave,bridge,->,is located
+dry valley,A.1 Surface landform,->,
+without a surface stream channel,dry valley,->,has form
+dynamic phreas,C. Geome,->,
+erosion,B.2 Loss,->,
+"by mechanical and chemical actions of all moving agents , such as rivers , wind and glaciers",erosion,->,has cause
+at the surface or in caves,erosion,->,is located
+exsurgence,A.3 Hydrological form,->,
+fed only by percolation water,exsurgence,->,has cause
+fault,D.3 Property,->,
+separating two parts of a once continuous cock body with relative movement .,fault,->,has function
+along the fault plane,fault,->,is located
+fault cave,A.2 Underground landform,->,
+by movement of the fault,fault cave,->,has cause
+developed along a fault or fault zone,fault cave,->,is located
+fault plane,D.1 Abiotic,->,
+along which movement of a fault has taken place,fault plane,->,has cause
+fissure,D.1 Abiotic,->,
+an open crack,fissure,->,has form
+in rock or soil,fissure,->,composed
+formed from thin films or trickles of water,flowstone,->,has cause
+over floors or walls,flowstone,->,is located
+fluorometer,E.1 Instrument,->,
+used in water tracing and dye gauging,fluorometer,->,has function
+glacier cave,A.2 Underground landform,->,
+formed within or beneath a glacier,glacier cave,->,is located
+grike,A.1 Surface landform,->,
+deep ### narrow ### rectilinear,grike,->,has form
+as a result of solution along a joint,grike,->,has cause
+in a rock outcrop,grike,->,is located
+elongated and curving,gypsum flower,->,has form
+on a cave surface,gypsum flower,->,is located
+half-blind valley,A.1 Surface landform,->,
+half-tube,A.2 Underground landform,->,
+"semi-eylindrical , elongate",half-tube,->,has form
+in a cave surface,half-tube,->,is located
+with considerable width and length,chamber,->,has size
+blocking part of a cave,choke,->,has function
+column,A.2 Underground landform,->,
+from floor to ceiling,column,->,has form
+formed by the growth and joining of a stalactite and a stalagmite,column,->,has cause
+circular or elliptical passage,conduit,->,has form
+"by mechanical action of moving agents , especially water",corrosion,->,has cause
+in the form of a wavy or folded sheet,curtain,->,has form
+hanging from the roof or wall of a cave,curtain,->,is located
+dark zone,D.3 Property,->,
+part of a cave which daylight does not reach,dark zone,->,is located
+decomposers,D.2 Biotic,->,
+that subsist by extracting energy from tissues of dead animals and plants.detritivore,decomposers,->,has function
+"of simple but variable form , e.g . , cylindrical , conical , bowl - or dish-shaped",doline,->,has form
+draining underground,doline,->,has function
+draining underground,polje,->,has function
+in karst,doline,->,composed
+in karst,karst poljes,->,is located
+from a few to many hundreds of metres in dimension,doline,->,has size
+dome,A.2 Underground landform,->,
+hemispheroidal hollow,dome,->,has form
+formed by breakdown and / or salt weathering,dome,->,has cause
+generally in mechanically weak rocks,dome,->,composed
+cave floor,driphole,->,is located
+dripline,A.2 Underground landform,->,
+useful in cave survey to define the beginning of the cave,dripline,->,has function
+formed by drips from the rock above,dripline,->,has cause
+on the ground,dripline,->,is located
+formed from drops falling from cave roofs or walls,dripstone,->,has cause
+travertine,D.1 Abiotic,->,
+banded,travertine,->,has form
+"precipitated from spring , river or lake water",travertine,->,has cause
+tube,A.2 Underground landform,->,
+elliptical or nearly circular in cross-section,tube,->,has form
+tufa,D.1 Abiotic,->,
+tufa,A.1 Surface landform,->,
+"from spring , river or lake waters",tufa,->,has cause
+twilight zone,A.2 Underground landform,->,
+the part of a cave,twilight zone,->,is located
+uvala,A.1 Surface landform,->,
+with several lesser depressions within its rim,uvala,->,has form
+vadose zone,C. Geome,->,
+through which water descends under gravity,vadose zone,->,has function
+the zone where voids in the rock are partly filled with air,vadose zone,->,is located
+vauclusian spring,A.3 Hydrological form,->,
+"rising up a deep , steeply inclined , waterfilled passage into a small surface pool",vauclusian spring,->,has form
+vermiculation,A.2 Underground landform,->,
+"pattern of thin , worm-shaped coatings of day",vermiculation,->,has form
+on cave surfaces,vermiculation,->,is located
+water table,D.1 Abiotic,->,
+"between phreatic water , which completely fills voids in the rock , and ground air , which partially fills higher voids",water table,->,is located
+water tracing,E.2 Method,->,
+on the surface or underground,water tracing,->,is located
+on the surface or underground,plunge pool,->,is located
+well,A.3 Hydrological form,->,
+deep ### rounded,well,->,has form
+in a cave floor,well,->,is located
+jelar breccia,D.1 Abiotic,->,
+on exposed soluble rock surfaces,karren,->,is located
+rillenkarren,A.1 Surface landform,->,
+form of corrosion,rillenkarren,->,has cause
+largest flat-floored enclosed depressions,karst poljes,->,has form
+uvalas,A.1 Surface landform,->,
+of elongated or irregular plan form,uvalas,->,has form
+denoting a large depression,uvala,->,has form
+shilin,C. Geome,->,
+formed on a plateau of gently dipping limestone,shilin,->,is located
+stone forest,A.1 Surface landform,->,
+standing on an undulating karst plateau,stone forest,->,is located
+helictite,A.2 Underground landform,->,
+to give a curving or angular form,helictite,->,has form
+hydrology,E.2 Method,->,
+ice cave,A.2 Underground landform,->,
+inflow cave,A.3 Hydrological form,->,
+inflow cave,A.2 Underground landform,->,
+into which a stream enters or is known to have entered formerly,inflow cave,->,has function
+karst,C. Geome,->,
+on account of greater solubility of certain rocks in natural waters than is common,karst,->,has cause
+karst window,A.1 Surface landform,->,
+dosed,karst window,->,has form
+keyhole,A.2 Underground landform,->,
+which is round above and narrow below,keyhole,->,has form
+lava-cave,A.2 Underground landform,->,
+usually a tube or tunnel,lava-cave,->,has form
+formed by flow of liquid lava through a solidified mass,lava-cave,->,has cause
+in a lava flow,lava-cave,->,is located
+limestone,D.1 Abiotic,->,
+limestone,scaling chip,->,has form
+live cave,A.2 Underground landform,->,
+meander niche,A.2 Underground landform,->,
+hemispherically roofed part of a cave,meander niche,->,has form
+formed by a stream meandering and cutting down at the same time,meander niche,->,has cause
+moonmilk,A.2 Underground landform,->,
+"soft , white plastic",moonmilk,->,has form
+natural arch,D.1 Abiotic,->,
+natural arch,A.1 Surface landform,->,
+formed by weathering,natural arch,->,has cause
+natural bridge,D.1 Abiotic,->,
+natural bridge,A.1 Surface landform,->,
+spanning a ravine or valley,natural bridge,->,has form
+formed by erosive agents,natural bridge,->,has cause
+thick layer,blanket,->,has form
+at the point where its stream disappears underground,blind valley,->,is located
+blowhole,A.1 Surface landform,->,
+through which air and water are forced by incoming waves,blowhole,->,has function
+near the shore,blowhole,->,is located
+"through which air blows in and out with observable force , sometimes audibly",blowhole,->,has function
+blue hole,A.3 Hydrological form,->,
+blue hole,A.2 Underground landform,->,
+water rises from below without great turbulence,blue hole,->,has function
+drowned,blue hole,->,is located
+bogaz,A.1 Surface landform,->,
+enlarged by solution of the limestone,bogaz,->,has cause
+boiling spring,A.3 Hydrological form,->,
+turbulent,boiling spring,->,has form
+bone-breccia,D.1 Abiotic,->,
+botryoid,A.2 Underground landform,->,
+grapelike,botryoid,->,has form
+grapelike,clusterite,->,has form
+grapelike,grape formation,->,has form
+generally found on walls of caves,botryoid,->,is located
+generally found on walls of caves,clusterite,->,is located
+generally found on walls of caves,grape formation,->,is located
+clusterite,A.2 Underground landform,->,
+grape formation,A.2 Underground landform,->,
+bourne,A.3 Hydrological form,->,
+Intermittent,bourne,->,has function
+in a normally dry valley in chalk country,bourne,->,is located
+boxwork,A.2 Underground landform,->,
+Network of thin blades,boxwork,->,has form
+etched out in relief on the limestone walls and ceiling of a cave,boxwork,->,is located
+bridge,D.1 Abiotic,->,
+a residual rock span across a passage,bridge,->,has form
+buried karst,C. Geome,->,
+buried by younger sediments,buried karst,->,has cause
+calcarenite,D.1 Abiotic,->,
+Size of particles ranges from 1 / 16 to 2 millimeters,calcarenite,->,has size
+calcilutite,D.1 Abiotic,->,
+in which the grains have an average diameter of less than 1 / 16 millimeter,calcilutite,->,has size
+in which the grains have an average diameter of less than 1 / 16 millimeter,calcareous mudstone,->,has size
+calcareous mudstone,D.1 Abiotic,->,
+calcirudite,D.1 Abiotic,->,
+fragmental,calcirudite,->,has form
+in which the particles are generally larger than 2 millimeters,calcirudite,->,has size
+calcite,D.1 Abiotic,->,
+like aragonite but differing in crystal form,calcite,->,has form
+calcite bubble,A.2 Underground landform,->,
+"the interior is smooth , and the exterior consists of small jagged crystals",calcite bubble,->,has form
+formed by the deposition of calcite around a gas bubble,calcite bubble,->,has cause
+forming a fringe of shawls or stalactites on the outer edge,canopy,->,has form
+hanging from a sloping wall projection,canopy,->,is located
+steep-walled,canyon,->,has form
+cut by running water,canyon,->,has cause
+formed by collapse of the roof of a long fairly straight cave,canyon,->,has cause
+capillary stalagmite,A.2 Underground landform,->,
+formed by saturated karst water pushed up through capillaries and small cracks,capillary stalagmite,->,has cause
+in a sinter crust,capillary stalagmite,->,is located
+carbonate,D.1 Abiotic,->,
+room or series of rooms and passages,cave,->,has form
+generally formed by solution of limestone,cave,->,has cause
+large enough to be entered by a man,cave,->,has size
+cave breakdown,B.1 Movement,->,
+cave breakdown,D.1 Abiotic,->,
+by fall of rock masses from walls and ceiling,cave breakdown,->,has cause
+have collapsed from the walls and ceiling of a cave,cave breakdown,->,has cause
+cave breccia,D.1 Abiotic,->,
+Angular,cave breccia,->,has form
+forming a fill,cave breccia,->,has function
+either cemented together by dripstone or in a matrix of cave earth,cave breccia,->,has cause
+resembling coral in shape,cave coral,->,has form
+resembling coral in shape,coral formation,->,has form
+"found on floor , walls , or ceiling of a cave",cave coral,->,is located
+"found on floor , walls , or ceiling of a cave",coral formation,->,is located
+generally small,cave coral,->,has size
+generally small,coral formation,->,has size
+coral formation,A.2 Underground landform,->,
+flooring or filling a cave passage,cave fill,->,has function
+outflow cave,A.2 Underground landform,->,
+palaeokarst,C. Geome,->,
+remnant from a previous period of karstification,palaeokarst,->,has cause
+pendulite,A.2 Underground landform,->,
+submerged part covered with dog-tooth spar to give the appearance of a drumstick,pendulite,->,has form
+which has been partly submerged,pendulite,->,has cause
+percolation water,D.1 Abiotic,->,
+"moving mainly downwards through pores , cracks and tight fissures",percolation water,->,has function
+in the vadose zone,percolation water,->,is located
+permeability,D.3 Property,->,
+permitting water to pass through it,permeability,->,has function
+phreatic water,D.1 Abiotic,->,
+below the level at which all voids in the rock are completely filled with water,phreatic water,->,is located
+phreatic zone,C. Geome,->,
+where voids in the rock are completely filled with water,phreatic zone,->,is located
+pillar,A.2 Underground landform,->,
+from roof to floor,pillar,->,has form
+left by the removal of surrounding rock,pillar,->,has cause
+pipe,A.1 Surface landform,->,
+tubular,pipe,->,has form
+into ' karst rocks,pipe,->,is located
+projecting as much as several metres down from the surface,pipe,->,has size
+plunge pool,D.1 Abiotic,->,
+generally of large size,plunge pool,->,has size
+polje,A.1 Surface landform,->,
+with a flat floor across which there may be an intermittent or perennial stream,polje,->,has form
+polygonal karst,C. Geome,->,
+pitted by closed depressions,polygonal karst,->,has form
+porosity,D.3 Property,->,
+rock or soil,porosity,->,composed
+pseudokarst,C. Geome,->,
+resemble those of karst,pseudokarst,->,has form
+relict karst,C. Geome,->,
+open to modification by present-day processes,relict karst,->,has function
+produced by earlier geomorphic processes within the present cycle of karstification,relict karst,->,has cause
+tecto-karstic hollow,A.1 Surface landform,->,
+closed basin,tecto-karstic hollow,->,has form
+evolved through karst processes,tecto-karstic hollow,->,has cause
+inside a tectonic depression,tecto-karstic hollow,->,is located
+in the karst terrains,poljes,->,is located
+"with a wide , flat and nearly horizontal floor , completely enclosed between steep slopes",polje,->,has form
+peripheral polje,A.1 Surface landform,->,
+base-level polje,A.1 Surface landform,->,
+with a floor cut entirely across karst rocks,base-level polje,->,has form
+littoral cave,A.2 Underground landform,->,
+within the range of tides,littoral cave,->,is located
+form by wave erosion,sea caves,->,has cause
+in coastal areas that contain exposed bedrock,sea caves,->,is located
+flank margin caves,A.2 Underground landform,->,
+series of oval rooms,flank margin caves,->,has form
+result of developing in the thinning margin of the freshwater lens,flank margin caves,->,has cause
+"extensive in the horizontal direction , but limited in the vertical direction",flank margin caves,->,has size
+blue holes,A.2 Underground landform,->,
+blue holes,A.3 Hydrological form,->,
+open to the Earth ’ s surface,blue holes,->,has form
+open to the Earth ’ s surface,blue hole,->,has form
+provide access to submerged cave passages,blue holes,->,has function
+provide access to submerged cave passages,blue hole,->,has function
+extend below sea level for a majority of their depth,blue holes,->,is located
+limonite,D.1 Abiotic,->,
+sandstone,D.1 Abiotic,->,
+karst forms,A. Landform,->,
+formed mainly by solutional processes of carbonate rocks,karst forms,->,has cause
+surface and subsurface,karst forms,->,is located
+above known large caves,collapse dolines,->,is located
+depressions with flat bottoms,karst poljes,->,has form
+result of solutional processes and karst water drainage,karst poljes,->,has cause
+lack an active watercourse over all or parts of their length,dry valleys,->,has form
+because water is lost in karst or is in a much lower position,dry valleys,->,has cause
+influent cave,A.2 Underground landform,->,
+into which a stream flews or formerly entered,influent cave,->,has function
+into which a stream flews or formerly entered,inflow cave,->,has function
+jama,A.2 Underground landform,->,
+Vertical or steeply inclined shaft,jama,->,has form
+Vertical or steeply inclined shaft,pothole,->,has form
+Vertical or steeply inclined shaft,abime,->,has form
+pothole,A.2 Underground landform,->,
+abime,A.2 Underground landform,->,
+joint-plane cave,A.2 Underground landform,->,
+developed along steeply dipping joint planes,joint-plane cave,->,is located
+high in relation to width,joint-plane cave,->,has size
+separated by ridges,karren,->,has form
+caused by solution,karren,->,has cause
+vary in depth from a few millimeters to more than a meter,karren,->,has size
+shallow channels separated by sharp ridges,rillenkarren,->,has form
+2 - 3 centimeters apart,rillenkarren,->,has size
+rinnenkarren,A.1 Surface landform,->,
+flat-bottomed grooves,rinnenkarren,->,has form
+several centimeters apart,rinnenkarren,->,has size
+kluftkarren,A.1 Surface landform,->,
+joints enlarged by solution,kluftkarren,->,has cause
+spitzkarren,A.1 Surface landform,->,
+extending down from steep spires or pinnacles,spitzkarren,->,is located
+large deep grooves,spitzkarren,->,has size
+meanderkarren,A.1 Surface landform,->,
+winding or meandering channels,meanderkarren,->,has form
+rundkarren,A.1 Surface landform,->,
+having rounded channels and intervening rounded ridges,rundkarren,->,has form
+reexhumed after formation under soil or peat,rundkarren,->,has cause
+fachkarren,A.1 Surface landform,->,
+bodenkarren,A.1 Surface landform,->,
+karrenfeld,A.1 Surface landform,->,
+formed by the dissolving of rock,karst,->,has cause
+karst barre,C. Geome,->,
+karst base level,D.1 Abiotic,->,
+karstification does not take place,karst base level,->,has function
+karst bridge,A.1 Surface landform,->,
+bridge or arch,karst bridge,->,has form
+karst fens,A.1 Surface landform,->,
+developed in sinkhole terrain,karst fens,->,is located
+karst lake,A.3 Hydrological form,->,
+in extensive closed depression,karst lake,->,is located
+karst margin plain,A.1 Surface landform,->,
+plain,karst margin plain,->,has form
+plain,karst plain,->,has form
+"having a cover of impervious detritus , which allows surface drainage",karst margin plain,->,has function
+karst plain,A.1 Surface landform,->,
+karst pond,A.3 Hydrological form,->,
+Closed depression,karst pond,->,has form
+in a karst area,karst pond,->,is located
+karst river,A.3 Hydrological form,->,
+originates from a karst spring,karst river,->,has cause
+calcretes,D.1 Abiotic,->,
+as a result of concentration processes by near-surface evaporation,calcretes,->,has cause
+near the water table in arid lands,calcretes,->,is located
+marginal cave,A.2 Underground landform,->,
+the origin of such caves was due to wave action and their gradual loss of connection to the sea,marginal cave,->,has cause
+by its position at the sea coast,marginal cave,->,is located
+halocline,D.1 Abiotic,->,
+where the salinity abruptly changes,halocline,->,is located
+glaciers,D.1 Abiotic,->,
+accumulates on the upper elevations of a glacier,glaciers,->,is located
+denuded karst,C. Geome,->,
+with substantial inheritance of solution porosity from the preceding stages of intrastratal development,denuded karst,->,has cause
+develops where the soluble rock has been almost completely exposed from beneath the cover,denuded karst,->,composed
+open karst,C. Geome,->,
+gypsum needles,A.1 Surface landform,->,
+"straight , clear",gypsum needles,->,has form
+that grow by extrusion from the soil,gypsum needles,->,has cause
+in some caves,gypsum needles,->,is located
+cave cotton,D.1 Abiotic,->,
+generally with fiber lengths of a few tens of centimeters but diameters of tens or hundreds of micrometers,cave cotton,->,has size
+pores,D.1 Abiotic,->,
+available for the storage of water,pores,->,has function
+In porous media aquifers,pores,->,is located
+draining open conduit systems,karst springs,->,has function
+hydrothermal karst,C. Geome,->,
+network caves,A.2 Underground landform,->,
+formed by widening of nearly all major fractures,network caves,->,has cause
+within favorable areas of soluble rocks,network caves,->,is located
+bamboo,A.2 Underground landform,->,
+thermoindicator,A.2 Underground landform,->,
+flutes,A.1 Surface landform,->,
+vertical,flutes,->,has form
+vertical,longitudinal rills,->,has form
+vertical,shaft,->,has form
+vertical,pit caves,->,has form
+that develop where a water film flows down a high angle rock face,flutes,->,has cause
+that develop where a water film flows down a high angle rock face,longitudinal rills,->,has cause
+longitudinal rills,A.1 Surface landform,->,
+jamas,A.2 Underground landform,->,
+sinking deep into the carbonate massive,jamas,->,has form
+of greater dimensions,jamas,->,has size
+zone of vertical circulation,C. Geome,->,
+area with large joints,zone of vertical circulation,->,has form
+"through which the water circulates quickly , predominantly in the ver - tical direction , down to the groundwater level .",zone of vertical circulation,->,has function
+speleothems,A.2 Underground landform,->,
+"take on the form of stalactites , stalagmites , flowstone , and other forms",speleothems,->,has form
+conduits,A.3 Hydrological form,->,
+through which water moves from sinkholes and sinking streams to the outlets at springs,conduits,->,has function
+in limestone,conduits,->,composed
+in limestone,rise,->,is located
+aeolian cave,A.2 Underground landform,->,
+bowl-shaped,aeolian cave,->,has form
+in solid rock,aeolian cave,->,composed
+lava conduits,A.2 Underground landform,->,
+by the crusting over of channels .,lava conduits,->,has cause
+by the crusting over of channels .,tunnels,->,has cause
+by the crusting over of channels .,tubes,->,has cause
+by the crusting over of channels .,pyroducts,->,has cause
+within streams of lava,lava conduits,->,is located
+within streams of lava,tunnels,->,is located
+within streams of lava,tubes,->,is located
+within streams of lava,pyroducts,->,is located
+tunnels,A.2 Underground landform,->,
+tubes,A.2 Underground landform,->,
+pyroducts,A.2 Underground landform,->,
+cave-wall biofilms,D.2 Biotic,->,
+on subaerial cave-wall surfaces,cave-wall biofilms,->,is located
+on subaerial cave-wall surfaces,biofilms,->,is located
+on subaerial cave-wall surfaces,microbial draperies,->,is located
+on subaerial cave-wall surfaces,snottites,->,is located
+biofilms,D.2 Biotic,->,
+microbial draperies,D.2 Biotic,->,
+snottites,D.2 Biotic,->,
+tiankeng,A.1 Surface landform,->,
+with perimeter walls that are close to vertical,tiankeng,->,has form
+"at least 100 m long , wide and deep",tiankeng,->,has size
+cenotes,A.1 Surface landform,->,
+open depressions,cenotes,->,has form
+giving access to the water table,cenotes,->,has function
+resulting from the collapse of the roof of submerged cavities,cenotes,->,has cause
+in the coastal karst belts,cenotes,->,is located
+subsidence dolines,A.1 Surface landform,->,
+caused by the subsiding of an area .,subsidence dolines,->,has cause
+intersection dolines,A.1 Surface landform,->,
+"formed when an old cave system , partially or totally filled with sediments , is cut by the topographic surface as a consequence of the lowering of such a surface by chemical erosion",intersection dolines,->,has cause
+compound hollow,A.1 Surface landform,->,
+originated from the fusion of simpler forms,compound hollow,->,has cause
+polygenetic sink,A.1 Surface landform,->,
+evolved through both the karst process and another morphogenetic process,polygenetic sink,->,has cause
+limestone pavement,D.1 Abiotic,->,
+commonly divided into blocks by solutionally widened joints,limestone pavement,->,has form
+lost river,A.3 Hydrological form,->,
+a surface stream,lost river,->,has form
+In a karst region,lost river,->,is located
+lycopodium spores,E.1 Instrument,->,
+which can be used in natural or dyed color as a label,lycopodium spores,->,has function
+in karst areas,lycopodium spores,->,is located
+meander,A.2 Underground landform,->,
+an arcuate curve,meander,->,has form
+formed by lateral shifting of a cave stream,meander,->,has cause
+in a channel,meander,->,is located
+conical or crescentshaped opening,meander niche,->,has form
+formed by the downward and lateral erosion of a stream on the floor of a passage,meander niche,->,has cause
+in the wall of a cave,meander niche,->,is located
+merokarst,C. Geome,->,
+microkarst,C. Geome,->,
+surficial features are small,microkarst,->,has size
+mischungskorrosion,B.4 Transformation,->,
+derived from the mixing of two saturated waters that differ in carbon dioxide partial pressure,mischungskorrosion,->,has cause
+karst inselberg,A.1 Surface landform,->,
+karst residual hills,karst inselberg,->,has form
+karst residual hills,mogote,->,has form
+mogote,A.1 Surface landform,->,
+moon milk,D.1 Abiotic,->,
+plastic,moon milk,->,has form
+mud stalagmite,A.2 Underground landform,->,
+naked karst,C. Geome,->,
+bare karst,C. Geome,->,
+rock arch,natural arch,->,has form
+rock bridge spanning a ravine,natural bridge,->,has form
+not yet eroded away,natural bridge,->,has cause
+natural tunnel,A. Landform,->,
+generally fairly straight in direction and fairly uniform in cross section,natural tunnel,->,has form
+sanidine,D.1 Abiotic,->,
+montmorillonite,D.1 Abiotic,->,
+product of intensive acidic weathering of volcaniclastic material,montmorillonite,->,has cause
+product of intensive acidic weathering of volcaniclastic material,smectite,->,has cause
+smectite,D.1 Abiotic,->,
+input caves,A.2 Underground landform,->,
+leading to epiphreatic tube passages,input caves,->,is located
+juvenile pattern,D.3 Property,->,
+prevails where soluble rocks are exposed by uplift and by removal of any impermeable cover,juvenile pattern,->,composed
+microforms,A.2 Underground landform,->,
+Smaller scale forms,microforms,->,has size
+step-wise calibration,E.2 Method,->,
+allowed calibrating the different components of the streamflow according to different hydrologic processes,step-wise calibration,->,has function
+secondary porosity,D.3 Property,->,
+in the post-petrification period,secondary porosity,->,is located
+gravitational water,D.1 Abiotic,->,
+"due to gravity , penetrates and flows into the underground system",gravitational water,->,has cause
+specific yield,D.3 Property,->,
+surface karst forms,A.1 Surface landform,->,
+shaft,A.2 Underground landform,->,
+shake,A.1 Surface landform,->,
+especially one formed by subsidence,shake,->,has cause
+especially one formed by subsidence,shakehole,->,has cause
+shakehole,A.1 Surface landform,->,
+"formed by solution , subsidence , and compaction",shakehole,->,has cause
+"formed by solution , subsidence , and compaction",shake,->,has cause
+shawl,A.2 Underground landform,->,
+triangular-shaped,shawl,->,has form
+by trickling water,shawl,->,has cause
+"formed on walls , shelves , benches , and terraces",shawl,->,is located
+shield,A.2 Underground landform,->,
+disk-shaped,shield,->,has form
+standing edgewise at a high angle,shield,->,is located
+sink,A.1 Surface landform,->,
+"They may be basin , funnel , or cylindrical shaped",sink,->,has form
+"They may be basin , funnel , or cylindrical shaped",sinkhole,->,has form
+sinkhole,A.1 Surface landform,->,
+sinkhole plain,C. Geome,->,
+nearly all drainage is subterranean,sinkhole plain,->,has function
+sinkhole pond,A.3 Hydrological form,->,
+due to an impervious clay floor or to intersection of depression with the water table,sinkhole pond,->,has cause
+in closed depression,sinkhole pond,->,is located
+sinking creek,A.3 Hydrological form,->,
+that disappears underground,sinking creek,->,has function
+sinter,D.1 Abiotic,->,
+deposited by a mineral spring,sinter,->,has cause
+siphon,A.2 Underground landform,->,
+in which the ceiling dips below a water surface,siphon,->,is located
+slump pit,D.1 Abiotic,->,
+caused by erosion beneath the fill,slump pit,->,has cause
+the clay fill of a cave floor,slump pit,->,is located
+solution pan,A.1 Surface landform,->,
+generally characterized by flat bottom and overhanging sides,solution pan,->,has form
+generally characterized by flat bottom and overhanging sides,panhole,->,has form
+generally characterized by flat bottom and overhanging sides,opferkessel,->,has form
+generally characterized by flat bottom and overhanging sides,tinajita,->,has form
+generally characterized by flat bottom and overhanging sides,kamenitza,->,has form
+solution,solution pan,->,has cause
+solution,panhole,->,has cause
+solution,opferkessel,->,has cause
+solution,tinajita,->,has cause
+solution,kamenitza,->,has cause
+solution,rill,->,has cause
+panhole,A.1 Surface landform,->,
+opferkessel,A.1 Surface landform,->,
+tinajita,A.1 Surface landform,->,
+kamenitza,A.1 Surface landform,->,
+solution pipe,A.1 Surface landform,->,
+often without surface expression,solution pipe,->,has form
+attributable to solution,solution pipe,->,has cause
+sotano,A.2 Underground landform,->,
+can store and transmit significant quantities of water,aquifer,->,has function
+forms in seawater,aragonite,->,composed
+artesian aquifer,C. Geome,->,
+bounded on top and bottom by confining beds,artesian aquifer,->,has form
+not enlarged by growth into a major tube or canyon,bedding-plane cave,->,has form
+has remained almost entirely on the bedding plane,bedding-plane cave,->,is located
+cirque-dolines,A.1 Surface landform,->,
+have been transformed by solution into closed depressions,cirque-dolines,->,has cause
+aquitard,C. Geome,->,
+keeps groundwater from draining away,aquitard,->,has function
+keeps groundwater from draining away,confining bed,->,has function
+keeps groundwater from draining away,aquiclude,->,has function
+confining bed,D.1 Abiotic,->,
+aquiclude,C. Geome,->,
+contact karst,C. Geome,->,
+formed by the influence surface river flow,contact karst,->,has cause
+drawdown,B. Process,->,
+endokarst,C. Geome,->,
+where the internal ( telluric ) energy is dominant and the rock mass is under lithostatic pressure which exceeds its tensile strength,endokarst,->,has cause
+in the lower part of the karstosphere,endokarst,->,is located
+uppermost zone of exposed karst rock,epikarst,->,is located
+subcutaneous zone,C. Geome,->,
+highly corroded,subcutaneous zone,->,has form
+highly corroded,epikarst,->,has form
+near the surface,subcutaneous zone,->,is located
+near the surface,epikarst,->,is located
+estavelle,A.3 Hydrological form,->,
+created by the dissolution of carbonate rocks,karst,->,has cause
+product   of processes that operate,karst,->,has cause
+on continental land masses,karst,->,is located
+arising from the combination of high rock solubility and well-developed solution channel ( secondary ) porosity underground,karst,->,has cause
+"developed on especially soluble rocks such as limestone , marble , and gypsum",karst,->,composed
+karst conduit networks,C. Geome,->,
+the length of conduits wider than about 1 cm in diameter,karst conduit networks,->,has size
+karst depression,A.1 Surface landform,->,
+karst topography,C. Geome,->,
+shaped by the dissolution of soluble bedrock,karst topography,->,has cause
+karst windows,A.1 Surface landform,->,
+exposing the river to the surface,karst windows,->,has form
+caused by collapse of an underground cavern,karst windows,->,has cause
+karstosphere,C. Geome,->,
+spatially discontinuous layer,karstosphere,->,has form
+konta,A.1 Surface landform,->,
+"closed karst depression , like a doline",konta,->,has form
+that has been remodelled during Pleistocene glaciation .,konta,->,has cause
+losing streamflow,A.3 Hydrological form,->,
+contributes water to the karst groundwater system,losing streamflow,->,has function
+in localized areas,losing streamflow,->,is located
+rill,A.2 Underground landform,->,
+on surface exposures of limestone,rill,->,is located
+rillenstein,A.1 Surface landform,->,
+Microsolution,rillenstein,->,has cause
+on rock surface,rillenstein,->,is located
+rimstone,D.1 Abiotic,->,
+"formed around the rims of overflowing basins , especially in caves",rimstone,->,is located
+rimstone barrage,D.1 Abiotic,->,
+wall-shaped,rimstone barrage,->,has form
+wall-shaped,gour,->,has form
+wall-shaped,rimstone dam,->,has form
+wall-shaped,rimstone barrier,->,has form
+"in caves , around springs",rimstone barrage,->,is located
+"in caves , around springs",gour,->,is located
+"in caves , around springs",rimstone dam,->,is located
+"in caves , around springs",rimstone barrier,->,is located
+gour,D.1 Abiotic,->,
+rimstone dam,D.1 Abiotic,->,
+rimstone barrier,D.1 Abiotic,->,
+rimstone pool,A.3 Hydrological form,->,
+kept in place by a rimstone dam,rimstone pool,->,has cause
+rise,A.3 Hydrological form,->,
+rock pillar,A.2 Underground landform,->,
+mass of bedrock,rock pillar,->,has form
+rock pinnacle,A.2 Underground landform,->,
+A tall sharp projection of bedrock,rock pinnacle,->,has form
+rising from the floor of a cave,rock pinnacle,->,is located
+rock shelter,A.2 Underground landform,->,
+Shallow,rock shelter,->,has form
+"where streams have undercut their banks at bends , or where there has been abrasion by blowing sand",rock shelter,->,has cause
+under an overhanging rock ledge,rock shelter,->,is located
+roof crust,A.2 Underground landform,->,
+"thin films of water , which have crept over the rock from pore or crack sources .",roof crust,->,has cause
+deposited on ceilings of caves,roof crust,->,is located
+room,A.2 Underground landform,->,
+that is wider than a passage,room,->,has size
+that is wider than a passage,chamber,->,has size
+sand stalagmite,A.2 Underground landform,->,
+formed on sand,sand stalagmite,->,is located
+scaling chip,D.1 Abiotic,->,
+which has fallen from the ceiling or wall of a eave,scaling chip,->,has cause
+scaling plate,D.1 Abiotic,->,
+A small flat piece of rock of rectangular or polygonal shape,scaling plate,->,has form
+that has fallen to the floor of a cave,scaling plate,->,has cause
+Oval hollow having an asymmetric cross section along its main axis,scallop,->,has form
+Scallops form patterns on tl e walls of caves and in streambeds,scallop,->,is located
+sea cave,A.3 Hydrological form,->,
+eroded by waves or currerts or dissolved by water,sea cave,->,has cause
+in a sea cliff,sea cave,->,is located
+faults,D.1 Abiotic,->,
+along which movement has occurred or still occurs,faults,->,is located
+fission-track method,E.2 Method,->,
+encrust floors or walls,flowstone,->,is located
+fluviokarst,C. Geome,->,
+visible surface expression of the fissures of a karstifiable rock,kluftkarren,->,has form
+visible surface expression of the fissures of a karstifiable rock,grikes,->,has form
+are a significant component of the epikarst,kluftkarren,->,is located
+are a significant component of the epikarst,grikes,->,is located
+grikes,A.1 Surface landform,->,
+hypogene karst,C. Geome,->,
+independent of the recharge from the overlying or immediately adjacent surface,hypogene karst,->,has cause
+inphase component,E.2 Method,->,
+range from 1 cm to 10 m in greatest dimension,karren,->,has size
+interaction between soluble rocks and different waters,karst,->,has cause
+karstification,B.4 Transformation,->,
+differential chemical and mechanical erosion by water on soluble bodies of rock,karstification,->,has cause
+at or near the Earth ’ s surface,karstification,->,is located
+indicates dissolution ( also called chemical solution ) of underlying soluble rocks by surface water or ground water,karst,->,has cause
+"distinctive type of landscape that develops from the dissolving action of water on soluble bedrock , primarily limestone and marble but also dolostone , gypsum and halite",karst,->,has cause
+"terrain , generally",karst,->,is located
+terrains underlain by soluble rock,karst,->,is located
+on cave walls or formations close to a light source .,lampenflora,->,is located
+visitor capacity,D.3 Property,->,
+allogeneic waters,D.1 Abiotic,->,
+derived from nonlocal sources,allogeneic waters,->,has cause
+base level,D.3 Property,->,
+cover-collapse sinkhole,A.1 Surface landform,->,
+suffosion dolines,A.1 Surface landform,->,
+depressions,suffosion dolines,->,has form
+usually only a few meters in diameter and depth,suffosion dolines,->,has size
+may have different forms and surface expressions,sinkhole,->,has form
+hypogene speleogenesis,B. Process,->,
+water,hypogene speleogenesis,->,has cause
+vertical through structures,A.2 Underground landform,->,
+vertically extended collapse features,vertical through structures,->,has form
+by-product of hypogene speleogenesis,vertical through structures,->,has cause
+result of dissolution of soluble rocks by groundwater,speleogenesis,->,has cause
+"form on the ceilings , walls , and floors of caves .",speleothems,->,is located
+straw stalactites,A.2 Underground landform,->,
+hollow tubes,straw stalactites,->,has form
+about 5 mm in diameter,straw stalactites,->,has size
+helictites,A.2 Underground landform,->,
+erratic stalactite-like form,helictites,->,has form
+occurs when seepage rates are too slow for complete drops to form,helictites,->,has cause
+cave pearls,A.2 Underground landform,->,
+"near-spherical , unattached speleothem",cave pearls,->,has form
+agitated by water dripping from considerable heights,cave pearls,->,has cause
+form in pools,cave pearls,->,is located
+dissolutional potholes,A.1 Surface landform,->,
+sharp-edged ### rounded-interior,dissolutional potholes,->,has form
+in stream beds,dissolutional potholes,->,is located
+anastamose,A.2 Underground landform,->,
+pattern of interweaving channels,anastamose,->,has form
+pendants,A.2 Underground landform,->,
+hanging from passage ceilings,pendants,->,is located
+typically B10 — 100 cm in dimension,pendants,->,has size
+cupolas,A.2 Underground landform,->,
+of thermal caves,cupolas,->,is located
+remnant rounded pinnacles,cutter,->,has form
+has formed under an acidic soil cover,cutter,->,is located
+sinkhole plains,C. Geome,->,
+doline karst,C. Geome,->,
+are accessible to human exploration,caves,->,has function
+"occurs as short to long prismatic ( along c ) , acicular or tabular ( chisel-shaped ) crystals , often twinned",aragonite,->,has form
+wad,D.1 Abiotic,->,
+knickpoints,D.1 Abiotic,->,
+may form as a response to a sudden drop in the water table,knickpoints,->,has cause
+"are circular , oval , or irregular in shape",room,->,has form
+where passages intersect,room,->,is located
+is wide relative to its length,room,->,has size
+pits,A.2 Underground landform,->,
+form of vadose passage,pits,->,has form
+flute,A.2 Underground landform,->,
+"elongate , nearly parallel crested forms",flute,->,has form
+in some cave passages,flute,->,is located
+exhalation,D.3 Property,->,
+whiting,D.1 Abiotic,->,
+derived by fine grinding,whiting,->,has cause
+such that > 95% is < 44 µm,whiting,->,has size
+relict sea caves on former coastlines,sea caves,->,is located
+relict sea caves on former coastlines,littoral caves,->,is located
+slabs,A.1 Surface landform,->,
+fragments of a single bed,slabs,->,has form
+a few cubic metres in volume,slabs,->,has size
+seems to be originated by microbiological reactions,moonmilk,->,has cause
+margin,D.3 Property,->,
+forms the island,margin,->,has cause
+under the flank of the high ground,margin,->,is located
+speleotherapy,E.2 Method,->,
+involving subterranean environments and their specific microclimate,speleotherapy,->,composed
+exsurgences,A.3 Hydrological form,->,
+receive the bulk of their recharge from a karst surface,exsurgences,->,has cause
+in autogenic aquifers,exsurgences,->,composed
+open anchialine pools,A.3 Hydrological form,->,
+connected to the sea by cave corridors,open anchialine pools,->,has form
+coastal,open anchialine pools,->,is located
+fungi,D.2 Biotic,->,
+important decomposers,fungi,->,has function
+glaciokarstic varves,D.1 Abiotic,->,
+"silty , laminated sediments",glaciokarstic varves,->,has form
+vulcanospeleology,E.2 Method,->,
+anchialine,A.3 Hydrological form,->,
+pools with no surface connection to the sea,anchialine,->,has form
+entrances,A.1 Surface landform,->,
+accidental intersections of the caves by surface erosion,entrances,->,has cause
+fengcong,A.1 Surface landform,->,
+rising from shared limestone foot-slopes .,fengcong,->,is located
+fenglin,A.1 Surface landform,->,
+fenglin,C. Geome,->,
+isolated from each other by flat limestone surfaces,fenglin,->,has form
+radiolocation,E.2 Method,->,
+to find out where the extremities of a cave lie and reduce cumulative errors in the survey,radiolocation,->,has function
+where groups of residual hills share a common exposed bedrock base,fenglin,->,is located
+where groups of residual hills share a common exposed bedrock base,peak forest,->,is located
+peak forest,C. Geome,->,
+artificial underground reservoir,D.1 Abiotic,->,
+to control the discharge regime of artificially stored water,artificial underground reservoir,->,has function
+valleys,A.1 Surface landform,->,
+of most karst regions,valleys,->,is located
+pocket valleys,A.1 Surface landform,->,
+they occur in association with large springs close to the margins of karst areas,pocket valleys,->,is located
+with internal drainage,dolines,->,has function
+with internal drainage,sinkholes,->,has function
+typically formed in karst environments,dolines,->,is located
+typically formed in karst environments,sinkholes,->,is located
+sinkholes,A.1 Surface landform,->,
+are formed due to coalescence of several dolines,uvalas,->,has cause
+with undulating floors,uvalas,->,has form
+floored by sinkholes,uvala,->,has form
+bowl shaped,sinkhole,->,has form
+paleokarst,C. Geome,->,
+paleokarst,caves without roofs,->,composed
+has been buried beneath younger sediments,paleokarst,->,is located
+flank-margin caves,A.2 Underground landform,->,
+as a result of sea-water and freshwater mixing,flank-margin caves,->,has cause
+inside the coastline,flank-margin caves,->,is located
+develops in carbonate coastlines,flank-margin caves,->,composed
+morphometry,E.2 Method,->,
+dissolutional corridors,A.1 Surface landform,->,
+follow major vertical fractures,dissolutional corridors,->,has form
+created by the doming,dissolutional corridors,->,has cause
+in the limestone,dissolutional corridors,->,composed
+found on all continents,paleokarst,->,is located
+caves without roofs,A.2 Underground landform,->,
+without roofs,caves without roofs,->,has form
+paleokarst aquifers,C. Geome,->,
+important sources of water,paleokarst aquifers,->,has function
+palynology,E.2 Method,->,
+provide important evidence about ancient environments,palynology,->,has function
+paragenesis,B.4 Transformation,->,
+network mazes,A.1 Surface landform,->,
+angular grids of intersecting fissures guided by fractures,network mazes,->,has form
+spongework mazes,A.2 Underground landform,->,
+irregular,spongework mazes,->,has form
+enlarged from primary pores,spongework mazes,->,has cause
+blind valleys,A.1 Surface landform,->,
+valleys usually terminate abruptly in a cliff or steep slope,blind valleys,->,has form
+Large allogenic streams penetrate farther into the karst in well-defined valleys before they sink,blind valleys,->,has cause
+pre-ponor retention,B.3 Addition,->,
+in the surface depression just above the ponor,pre-ponor retention,->,is located
+pseudokarstic caves,A.2 Underground landform,->,
+large enough to enter and investigate,pseudokarstic caves,->,has size
+emanation,D.3 Property,->,
+depends on the concentration of uranium ( which then decays to radium ) in the material,emanation,->,has cause
+k,D.3 Property,->,
+epik system,E.2 Method,->,
+intended particularly for use in the karst of the Jura mountains,epik system,->,has function
+fengcong karst,C. Geome,->,
+paleocave system,C. Geome,->,
+paleocave hydrocarbon reservoir,C. Geome,->,
+karst-related cavernous porosity and / or of cave-collapse-related interclast and fracture porosity,paleocave hydrocarbon reservoir,->,has cause
+does not experience exchange with stream water,phreatic zone,->,has function
+deep portion of an aquifer,phreatic zone,->,is located
+arêtes,A.1 Surface landform,->,
+"naked , reticulated , saw-topped ridges with spires",arêtes,->,has form
+c . 120 m high,arêtes,->,has size
+microrills,A.1 Surface landform,->,
+distinctive rilling appearance,microrills,->,has form
+smallest,microrills,->,has size
+rainpits,A.1 Surface landform,->,
+"cup-like hollows , sub-circular in plan and nearly parabolic in cross section",rainpits,->,has form
+decantation runnels,A.1 Surface landform,->,
+reduce in width and depth downslope,decantation runnels,->,has form
+"the solvent supply is not directly related to rainfall , but corresponds to overspilling stores of water , such as moss clumps , small snow banks , or soil remnants",decantation runnels,->,has cause
+cutters,A.1 Surface landform,->,
+develops beneath soil cover,cutters,->,is located
+develops beneath soil cover,grike,->,is located
+in some parts of the cave,aragonite,->,is located
+halite,D.1 Abiotic,->,
+colluvial transport,B.1 Movement,->,
+without the assistance of water,colluvial transport,->,has cause
+down-slope,colluvial transport,->,is located
+stalactites,A.2 Underground landform,->,
+hanging from the ceiling,stalactites,->,is located
+centimeter to meter in scale,stalactites,->,has size
+stalagmitic flowstones,A.2 Underground landform,->,
+formed by a thin flowing film of water itself fed by groups of dripping stalactites,stalagmitic flowstones,->,has cause
+coat the cave floor and walls,stalagmitic flowstones,->,is located
+soda straws,A.2 Underground landform,->,
+characterized by a central canal with constant diameter and by a wall structure that is controlled by geometric selection during growth,soda straws,->,has form
+generated by axial feeding,soda straws,->,has cause
+stalagmites,A.2 Underground landform,->,
+"show flat , rounded , or slightly hollow tops , but not a central canal",stalagmites,->,has form
+fed by an overhanging stalactite,stalagmites,->,has cause
+zone of bedrock modified by solution located at or near the surface,sinkhole,->,composed
+ponors,A.3 Hydrological form,->,
+the point at which a sinking stream heads underground,ponors,->,is located
+the point at which a sinking stream heads underground,swallow holes,->,is located
+swallow holes,A.3 Hydrological form,->,
+"sinkholes that form in a stream bed , often with a large vertical shaft beneath",swallow holes,->,has form
+direct runoff into an underground channelóin,swallow holes,->,has function
+intrastratal karstification,B.4 Transformation,->,
+"within a sequence of soluble rocks , e.g . a gypsum bed in a dolomite formation",intrastratal karstification,->,composed
+exokarst,C. Geome,->,
+at the surface,exokarst,->,is located
+cryptokarst,C. Geome,->,
+"developed beneath a blanket of permeable sediments such as soil , till , periglacial deposits and residual clays",cryptokarst,->,composed
+Karst-like landforms,pseudokarst,->,has form
+produced by processes other than dissolution or corrosion-induced subsidence and collapse,pseudokarst,->,has cause
+thermokarst,C. Geome,->,
+resulting from thawing of ground ice,thermokarst,->,has cause
+holokarst,C. Geome,->,
+extending well below baselevel,holokarst,->,is located
+developed on thick limestones,holokarst,->,composed
+Concentrated inflows of water from allogenic sources sink underground,ponors,->,has function
+Concentrated inflows of water from allogenic sources sink underground,swallets,->,has function
+Concentrated inflows of water from allogenic sources sink underground,swallow holes,->,has function
+Concentrated inflows of water from allogenic sources sink underground,stream-sinks,->,has function
+swallets,A.3 Hydrological form,->,
+stream-sinks,A.3 Hydrological form,->,
+"well layered , quite lustrous and lacks framing plant content",travertine,->,has form
+where rapid deposition is encouraged by evaporation,tufa,->,has cause
+near cave entrances,tufa,->,is located
+spheres,cave pearls,->,has form
+range ~ 0.2 to 10 – 15 mm in diameter,cave pearls,->,has size
+cristobalite,D.1 Abiotic,->,
+fine-grained,cristobalite,->,has form
+fine-grained,opal,->,has form
+occurs as thin interlayers in some calcite and gypsum speleothems,cristobalite,->,composed
+occurs as thin interlayers in some calcite and gypsum speleothems,opal,->,composed
+opal,D.1 Abiotic,->,
+static cave,A.2 Underground landform,->,
+deep hole with no air drainage out of the bottom,static cave,->,has form
+"it traps cold , dense air and excludes warmer air",static cave,->,has function
+primary porosity,D.3 Property,->,
+Shaft-like depressions deeply flooded by seawater,blue holes,->,has form
+in low-lying coral islands,blue holes,->,is located
+suffosion,B.2 Loss,->,
+by a combination of physical downwashing and chemical solution,suffosion,->,has cause
+in the karstified bedrock,suffosion,->,is located
+carbonatites,D.1 Abiotic,->,
+pit caves,A.2 Underground landform,->,
+1 – 2 m in diameter and up to 15 m deep,pit caves,->,has size
+mogotes,A.1 Surface landform,->,
+isolated,mogotes,->,has form
+in the northern section,mogotes,->,is located
+rise from the blanket sands,mogotes,->,composed
+extreme form of karst,fenglin,->,has form
+"develops where dissolution rates , tectonic uplift , and alluviation maintain a critical balance",fenglin,->,has cause
+solution dolines,A.1 Surface landform,->,
+10 – 100 m in diameter and up to 30 m in depth,solution dolines,->,has size
+vertical shafts,A.2 Underground landform,->,
+truncated by glaciation,vertical shafts,->,has cause
+where streams sink underground,sinkhole,->,has function
+in bouldery deposits such as glacial drift overlying limestone,shakehole,->,composed
+collapse,B.1 Movement,->,
+rapid downward,collapse,->,has function
+fovals,D.1 Abiotic,->,
+"can be found in different positions in the caves , on the floor , or on the rocky walls",fovals,->,is located
+kettle holes,A.1 Surface landform,->,
+assembled into extensive debris pseudokarst hillocks,kettle holes,->,has form
+developing closed depressions,kettle holes,->,has cause
+where buried ice melts in situ,kettle holes,->,is located
+develops in debris,kettle holes,->,composed
+resurgences,A.3 Hydrological form,->,
+reflect the changing water quality of the sinking streams,resurgences,->,has cause
+in allogenic karst aquifers,resurgences,->,is located
+Autogenic karst aquifers feed,exsurgences,->,has cause
+karstic terrain,polje,->,composed
+turm,A.1 Surface landform,->,
+tower,A.1 Surface landform,->,
+pepino,A.1 Surface landform,->,
+piton,A.1 Surface landform,->,
+cone,A.1 Surface landform,->,
+hum,A.1 Surface landform,->,
+breccia pipes,A.1 Surface landform,->,
+created by progressive stoping above sites of interstratal dissolution,breccia pipes,->,has cause
+gypsum karst,breccia pipes,->,composed
+bubbles,A.1 Surface landform,->,
+round or elliptical in plan,bubbles,->,has form
+round or elliptical in plan,gypsum tumuli,->,has form
+round or elliptical in plan,tents,->,has form
+gypsum tumuli,A.1 Surface landform,->,
+tents,A.1 Surface landform,->,
+rillensteine,D.1 Abiotic,->,
+solution runnels,A.1 Surface landform,->,
+where sheetflow or wash on a slope breaks down into linear threads,solution runnels,->,has cause
+karst in humid areas,solution dolines,->,is located
+in the humid tropics and subtropics,pinnacle karst,->,is located
+small-scale,pinnacle karst,->,has size
+preserving important archaeological evidence as well as sediments and deposits that provide clues to past environments,caves,->,has function
+water-filled vertical openings,blue holes,->,has form
+in the carbonate rock of the islands,blue holes,->,is located
+"composite result of carbonate deposition and dissolution cycles , which have been controlled by glacial sea-level fluctuations",blue holes,->,has cause
+extend below sea-level for a majority of their depth,blue hole,->,is located
+carbon dioxide,D.1 Abiotic,->,
+diagenesis,B.4 Transformation,->,
+product of diagenesis,dolostone,->,has cause

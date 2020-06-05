@@ -1,0 +1,1220 @@
+node,color,shape
+Category,yellow,box
+A. Landform,#796fb3,box
+A.1 Surface landform,#8b88bf,box
+A.2 Underground landform,#8b88bf,box
+A.3 Hydrological form,#8b88bf,box
+A.4 Other,#8b88bf,box
+B. Process,#3888c0,box
+B.1 Movement,#519ccc,box
+B.2 Loss,#519ccc,box
+B.3 Addition,#519ccc,box
+B.4 Transformation,#519ccc,box
+C. Geome,#696969,box
+D. Element/Entity/Property,#e95f0d,box
+D.1 Abiotic,#f57622,box
+D.2 Biotic,#f57622,box
+D.3 Property,#f57622,box
+D.3.1 Geolocation,#f77b28,box
+E. Instrument or method,#37a155,box
+E.1 Instrument,#54b466,box
+E.2 Method,#54b466,box
+breccia,#fdb87b,box
+of rock,white,box
+canopy,#c5c5e0,box
+consisting of a flowstone cover of a bedrock projection and of a fringe of stalactites or shawls on the outer edge,white,box
+canyon,#c5c5e0,box
+deep valley with steep to vertical walls,white,box
+frequently formed by a river rising on impervious rocks outside the karst area,white,box
+"deep , elongated cavity",white,box
+forming a cave passage,white,box
+cut by running water in the roof or floor of a cave,white,box
+cave,#c5c5e0,box
+in rock,white,box
+large enough to be entered by man,white,box
+cave blister,#c5c5e0,box
+almost perfect hemisphere,white,box
+cave coral,#c5c5e0,box
+usually occurring in numbers in patches,white,box
+very small,white,box
+cave earth,#fdb87b,box
+in a cave,white,box
+cave ecology,#acdda6,box
+cave fill,#fdb87b,box
+cover the bedrock floor,white,box
+cave pearl,#c5c5e0,box
+smooth ### polished ### rounded,white,box
+found in shallow hollows into which water drips,white,box
+cave spring,#c5c5e0,box
+inside a cave,white,box
+from rock or sediment,white,box
+cave system,#c5c5e0,box
+cavern,#c5c5e0,box
+within a cave,white,box
+very large,white,box
+cenote,#c5c5e0,box
+wall-sided,white,box
+halb-kugel,#c5c5e0,box
+A hemispheric hill,white,box
+cupola,#c5c5e0,box
+cupole,#c5c5e0,box
+scallop,#c5c5e0,box
+Shallow ### asymmetrical,white,box
+caused by turbulent waterflow,white,box
+distributed in rather regular fashion over limestone surfaces,white,box
+current marking,#c5c5e0,box
+curtain,#c5c5e0,box
+often translucent and resonant,white,box
+hanging from the roof or projecting from the wall of a cave,white,box
+bacon,#c5c5e0,box
+drapery,#c5c5e0,box
+blanket,#c5c5e0,box
+cutter,#c5c5e0,box
+Solution crevice in limestone,white,box
+underlying residual phosphate deposits,white,box
+Karren-like,white,box
+formed beneath the soil,white,box
+subsoil karren,#c5c5e0,box
+karren,#c5c5e0,box
+dead cave,#c5c5e0,box
+in which all solution and precipitation has cersed,white,box
+doline,#c5c5e0,box
+basin - or funnel-shaped,white,box
+formed mainly by direct solution of the limestone surface zone,white,box
+ranging in diameter from a few meters to a kilometer,white,box
+doline lake,#c5c5e0,box
+occupying a doline,white,box
+small,white,box
+dolomite,#fdb87b,box
+dolostone,#fdb87b,box
+dolomitization,#aacfe5,box
+whereby limestone becomes dolomite,white,box
+by the substitution of magnesium carbonate for part of the original calcium carbonate,white,box
+thin sheet,white,box
+driphole,#c5c5e0,box
+produced by fast-dripping water,white,box
+Hollow,white,box
+"surrounded by precipitated material , such as the bottom of a stalactite",white,box
+flowstone,#fdb87b,box
+deposited from water dripping from the ceiling or wall of a cave or from the overhanging edge of a rock shelter,white,box
+dripstone,#fdb87b,box
+dry cave,#c5c5e0,box
+collapse breccia,#fdb87b,box
+"has formed as the result of the collapse of the roof of a cave , of an underlying cave , or of an overhanging ledge",white,box
+collapse sink,#c5c5e0,box
+closed,white,box
+formed by the collapse of tie roof of a cave,white,box
+conduit,#c5c5e0,box
+subterranean,white,box
+cone karst,#c5c5c5,box
+characterized by star-shaped depressions,white,box
+common in the tropicr,white,box
+constructive waterfall,#c5c5e0,box
+on a surface stream,white,box
+large,white,box
+conulite,#c5c5e0,box
+"hollow , cone-shaped",white,box
+formed when a conical depression is drilled in cave mud by falling water,white,box
+corridor,#c5c5e0,box
+level and straight,white,box
+Intersecting linear depressions,white,box
+on the surface of the land,white,box
+corrosion,#aacfe5,box
+by solution or chemical action,white,box
+corrasion,#aacfe5,box
+cove,#c5c5e0,box
+Narrow steep-sided,white,box
+flanking limestone plateaus,white,box
+crawl,#c5c5e0,box
+crescentic wall niche,white,box
+that must be negotiated on hands and knees,white,box
+crawlway,#c5c5e0,box
+crevice karst,#c5c5c5,box
+intricate irregular,white,box
+has formed by solution widening of closely spaced joints,white,box
+near rivers,white,box
+Crevices may be as much as 6 meters across and 20 meters deep,white,box
+crust stone,#fdb87b,box
+looks like a flaky crust,white,box
+covering portions of walls of caves,white,box
+crystal cave,#c5c5e0,box
+crystal pool,#c5c5e0,box
+generally having little or no overflow,white,box
+In caves,white,box
+dead end,#c5c5e0,box
+having only one entry,white,box
+cul-de-sac,#c5c5e0,box
+oulo - pholite,#c5c5e0,box
+elongate curved,white,box
+on a cave wall,white,box
+gypsum flower,#c5c5e0,box
+cave flower,#c5c5e0,box
+cave formation,#c5c5e0,box
+"formed by the accumulation , dripping , or flowing of water",white,box
+cave group,#c5c5e0,box
+cave guano,#fdb87b,box
+in some places partially mineralized,white,box
+in caves,white,box
+cave ice,#c5c5e0,box
+formed by natural freezing of water,white,box
+cave-in,#aacfe5,box
+The collapse of the ceiling or side walls of a cave or of the land surface into a subterranean passage as a result of undermining or of pressure from above,white,box
+cave marble,#c5c5e0,box
+Banded,white,box
+capable of taking a high polish,white,box
+pisolith,#c5c5e0,box
+formed by concentric precipitation around a nucleus,white,box
+Small,white,box
+pisolite,#c5c5e0,box
+cave series,#c5c5e0,box
+in a particular district,white,box
+"in a cave , cave system",white,box
+underground,white,box
+larger-than-average size,white,box
+ceiling block,#c5c5e0,box
+cubical,white,box
+ceiling cavity,#c5c5e0,box
+Solutional,white,box
+in the ceiling of a cave,white,box
+ceiling meander,#c5c5e0,box
+winding upside-down channel,white,box
+in a cave ceiling,white,box
+ceiling slab,#c5c5e0,box
+thin,white,box
+that has fallen from the ceiling of a cave in roughly horizontal limestone,white,box
+extensive,white,box
+roof slab,#c5c5e0,box
+lampenflora,#fdb87b,box
+"growing on illuminated areas such as rocky surfaces , sediment and artificial materials around lamps",white,box
+kras,#fdb87b,box
+epikarst aquifer,#c5c5c5,box
+saturated,white,box
+that stores a part of the infiltrated water,white,box
+within the superficial part of the karst,white,box
+dry valleys,#c5c5e0,box
+time series analysis,#acdda6,box
+mostly used to improve the understanding of the hydrological behaviour of karst systems,white,box
+speleogenesis,#aacfe5,box
+"critically depends on both , the aggressiveness of groundwater and its circulation ( movement )",white,box
+groundwater,#fdb87b,box
+tafoni geomorphology,#c5c5e0,box
+a hollow shape,white,box
+carved by erosion,white,box
+in the coastal carbonates,white,box
+rounded several decimeters to several meters,white,box
+littoral caves,#c5c5e0,box
+formed primarily by wave action,white,box
+sea caves,#c5c5e0,box
+spring mounds,#fdb87b,box
+hot beds of biological activity,white,box
+In desert environments,white,box
+tend to be zones of high PCO2,white,box
+epigenesis,#aacfe5,box
+hypogene karstification,#aacfe5,box
+upward,white,box
+topographically depressed,white,box
+caves,#c5c5e0,box
+natural,white,box
+cave passages,#c5c5e0,box
+"either by alluviation , or upwards dissolution through a process commonly known as paragenesis",white,box
+in a vadose environment,white,box
+epiphreatic zone,#c5c5c5,box
+between the highest and lowest levels that the water table fluctuates between,white,box
+specific karstic ablation,#fdb87b,box
+poljes,#c5c5e0,box
+they are one of the rare formations that can support large-scale agriculture,white,box
+blind valley,#c5c5e0,box
+that terminates abruptly,white,box
+at a point where the stream sinks,white,box
+ghost rock karstification,#aacfe5,box
+intermediate,white,box
+where the action of water occurs only as it filters in through fractures,white,box
+for example like in granites,white,box
+dolines,#c5c5e0,box
+sign of the current shaping of the surface by precipitation water that percolates vertically through it and passes through the vadose part of the aquifer to the underground water,white,box
+unroofed caves,#c5c5e0,box
+is the consequence of the type and shape of the cave,white,box
+"various geological , geomorphological , climate , and hydrological conditions",white,box
+karst waters,#c5c5e0,box
+natural source and a public and economic good,white,box
+lakes,#c5c5e0,box
+is the consequence of the difference in the volumes of inflowing and outflowing water,white,box
+on the majority of larger karst poljes,white,box
+karst poljes,#c5c5e0,box
+important regulators of water conditions,white,box
+in rivers in the lower parts of river basins,white,box
+closed depressions,white,box
+on karstic surfaces,white,box
+equipotential surfaces,#fdb87b,box
+of equal hydraulic head,white,box
+collapse dolines,#c5c5e0,box
+that were formed with slow collapsing of roofs,white,box
+above larger underground cavities,white,box
+in karst terrains,white,box
+bowlshaped doline,#c5c5e0,box
+"In instances where dissolution is the prevailing mechanism , a bowlshaped doline will probably form",white,box
+point-recharge doline,#c5c5e0,box
+inception doline,#c5c5e0,box
+that also originates from the centripetal convergence of water,white,box
+this occurs inside a pre-existing hydrogeological structure,white,box
+ceiling tube,#c5c5e0,box
+remaining in the ceiling of a cave,white,box
+Steep-walled,white,box
+extends below the water tabl,white,box
+chalk,#fdb87b,box
+Soft poorly indurated,white,box
+in a matrix of verv finely crystalline calcite,white,box
+chamber,#c5c5e0,box
+in a cave or cave system,white,box
+The largest,white,box
+chasm,#c5c5e0,box
+deep,white,box
+in the earth's surface,white,box
+chimney,#c5c5e0,box
+A narrow vertical shaft,white,box
+in the roof of a cave,white,box
+generally smaller than an aven,white,box
+chockstone,#c5c5e0,box
+wedged between the walls of a cave passage,white,box
+choke,#fdb87b,box
+completely blocking a passage,white,box
+chute,#c5c5e0,box
+inclined channel or trough,white,box
+clay fill,#fdb87b,box
+that fills a cave passage,white,box
+clay filling,#aacfe5,box
+flachkarren,#c5c5e0,box
+"Widened joints , or grikes , isolate individual clints",white,box
+forming a pavement,white,box
+parallel to the bedding,white,box
+clint,#c5c5e0,box
+closed depression,#c5c5e0,box
+enclosed,white,box
+having no external drainage,white,box
+cockpit,#c5c5e0,box
+star-shaped,white,box
+Cockpits are the common type of closed depressions in a Kegelkarst,white,box
+cockpit karst,#c5c5c5,box
+Tropical,white,box
+geological processes,#aacfe5,box
+"between the lithosphere , the hydrosphere , the atmosphere and the biosphere",white,box
+"the forms of CO3 ( mainly CaCO , MgCO ) , HCO , CO , CH , and ( CH O ) n ( organic carbon",white,box
+karst springs,#c5c5e0,box
+between the subsurface and the surface environments,white,box
+carbonate reactions,#aacfe5,box
+In karst regions of the world,white,box
+gypsum crusts,#c5c5e0,box
+form as corrosion residues,white,box
+thus enhancing secondary porosity and hydraulic conductivity,white,box
+epikarst,#c5c5c5,box
+permeable boundary,white,box
+between the surface and subsurface environments,white,box
+hyporheic zone,#c5c5c5,box
+that has a variable thickness and lateral extent,white,box
+through which surface water and groundwater exchange and mix,white,box
+sand,#c5c5e0,box
+which was well washed,white,box
+goethite,#fdb87b,box
+but can also be created as a precipitate in marshes and springs,white,box
+"are the result of dripping , running , trickling , trapped , condensed water etc",white,box
+lowland,#c5c5c5,box
+with gently sloping hills,white,box
+lower,white,box
+fluvial karst forms,#c5c5e0,box
+that can be found particularly on flat parts of land,white,box
+can amount to several 10 per km2,white,box
+mesoforms,#c5c5e0,box
+scallops,#c5c5e0,box
+shallow,white,box
+that are shaped by eddies,white,box
+up to a few cm long,white,box
+active cave,#c5c5e0,box
+containing a running stream,white,box
+aggressive water,#fdb87b,box
+having the ability to dissolve rocks,white,box
+anastomosis,#c5c5e0,box
+A complex of many irregular and repeatedly connected passages,white,box
+in a cave or in a solution - sculptured rock,white,box
+anthodite,#c5c5e0,box
+feathery or radiating,white,box
+apron,#fdb87b,box
+smooth,white,box
+covering sloping projections from walls of caves or limestone cliffs,white,box
+aquifer,#c5c5c5,box
+will yield water to a well or spring,white,box
+aragonite,#fdb87b,box
+like calcite but differing in crystal form,white,box
+pinnacle karst,#c5c5e0,box
+ridges rise above forest-covered corridors and depressions,white,box
+a relief of as much as 120 meters,white,box
+arete,#c5c5c5,box
+backflooding,#aacfe5,box
+caused downstream passage being too small to pass an abnormally high discharge,white,box
+Thin ### elongated ### translucent,white,box
+projecting from roofs and walls of some caves,white,box
+balcony,#c5c5e0,box
+on the wall of a cave,white,box
+large enough to support one or more persons,white,box
+beachrock,#fdb87b,box
+friable to indurated,white,box
+occurs in thin beds dipping seaward at less than 15,white,box
+bedding-plane cave,#c5c5e0,box
+especially when there is a difference in susceptibility to corrosion in the two beds,white,box
+formed along a bedding plane,white,box
+blade,#c5c5e0,box
+of which it is an integral part,white,box
+generally the remains of a partition or bridge,white,box
+In a cave,white,box
+dry valley,#c5c5e0,box
+without a surface stream channel,white,box
+dynamic phreas,#c5c5c5,box
+erosion,#aacfe5,box
+"by mechanical and chemical actions of all moving agents , such as rivers , wind and glaciers",white,box
+at the surface or in caves,white,box
+exsurgence,#c5c5e0,box
+fed only by percolation water,white,box
+fault,#fdb87b,box
+separating two parts of a once continuous cock body with relative movement .,white,box
+along the fault plane,white,box
+fault cave,#c5c5e0,box
+by movement of the fault,white,box
+developed along a fault or fault zone,white,box
+fault plane,#fdb87b,box
+along which movement of a fault has taken place,white,box
+fissure,#fdb87b,box
+an open crack,white,box
+in rock or soil,white,box
+formed from thin films or trickles of water,white,box
+over floors or walls,white,box
+fluorometer,#acdda6,box
+used in water tracing and dye gauging,white,box
+glacier cave,#c5c5e0,box
+formed within or beneath a glacier,white,box
+grike,#c5c5e0,box
+deep ### narrow ### rectilinear,white,box
+as a result of solution along a joint,white,box
+in a rock outcrop,white,box
+elongated and curving,white,box
+on a cave surface,white,box
+half-blind valley,#c5c5e0,box
+half-tube,#c5c5e0,box
+"semi-eylindrical , elongate",white,box
+in a cave surface,white,box
+with considerable width and length,white,box
+blocking part of a cave,white,box
+column,#c5c5e0,box
+from floor to ceiling,white,box
+formed by the growth and joining of a stalactite and a stalagmite,white,box
+circular or elliptical passage,white,box
+"by mechanical action of moving agents , especially water",white,box
+in the form of a wavy or folded sheet,white,box
+hanging from the roof or wall of a cave,white,box
+dark zone,#fdb87b,box
+part of a cave which daylight does not reach,white,box
+decomposers,#fdb87b,box
+that subsist by extracting energy from tissues of dead animals and plants.detritivore,white,box
+"of simple but variable form , e.g . , cylindrical , conical , bowl - or dish-shaped",white,box
+draining underground,white,box
+in karst,white,box
+from a few to many hundreds of metres in dimension,white,box
+dome,#c5c5e0,box
+hemispheroidal hollow,white,box
+formed by breakdown and / or salt weathering,white,box
+generally in mechanically weak rocks,white,box
+cave floor,white,box
+dripline,#c5c5e0,box
+useful in cave survey to define the beginning of the cave,white,box
+formed by drips from the rock above,white,box
+on the ground,white,box
+formed from drops falling from cave roofs or walls,white,box
+travertine,#fdb87b,box
+banded,white,box
+"precipitated from spring , river or lake water",white,box
+tube,#c5c5e0,box
+elliptical or nearly circular in cross-section,white,box
+tufa,#c5c5e0,box
+"from spring , river or lake waters",white,box
+twilight zone,#c5c5e0,box
+the part of a cave,white,box
+uvala,#c5c5e0,box
+with several lesser depressions within its rim,white,box
+vadose zone,#c5c5c5,box
+through which water descends under gravity,white,box
+the zone where voids in the rock are partly filled with air,white,box
+vauclusian spring,#c5c5e0,box
+"rising up a deep , steeply inclined , waterfilled passage into a small surface pool",white,box
+vermiculation,#c5c5e0,box
+"pattern of thin , worm-shaped coatings of day",white,box
+on cave surfaces,white,box
+water table,#fdb87b,box
+"between phreatic water , which completely fills voids in the rock , and ground air , which partially fills higher voids",white,box
+water tracing,#acdda6,box
+on the surface or underground,white,box
+well,#c5c5e0,box
+deep ### rounded,white,box
+in a cave floor,white,box
+jelar breccia,#fdb87b,box
+on exposed soluble rock surfaces,white,box
+rillenkarren,#c5c5e0,box
+form of corrosion,white,box
+largest flat-floored enclosed depressions,white,box
+uvalas,#c5c5e0,box
+of elongated or irregular plan form,white,box
+denoting a large depression,white,box
+shilin,#c5c5c5,box
+formed on a plateau of gently dipping limestone,white,box
+stone forest,#c5c5e0,box
+standing on an undulating karst plateau,white,box
+helictite,#c5c5e0,box
+to give a curving or angular form,white,box
+hydrology,#acdda6,box
+ice cave,#c5c5e0,box
+inflow cave,#c5c5e0,box
+into which a stream enters or is known to have entered formerly,white,box
+karst,#c5c5c5,box
+on account of greater solubility of certain rocks in natural waters than is common,white,box
+karst window,#c5c5e0,box
+dosed,white,box
+keyhole,#c5c5e0,box
+which is round above and narrow below,white,box
+lava-cave,#c5c5e0,box
+usually a tube or tunnel,white,box
+formed by flow of liquid lava through a solidified mass,white,box
+in a lava flow,white,box
+limestone,white,box
+live cave,#c5c5e0,box
+meander niche,#c5c5e0,box
+hemispherically roofed part of a cave,white,box
+formed by a stream meandering and cutting down at the same time,white,box
+moonmilk,#c5c5e0,box
+"soft , white plastic",white,box
+natural arch,#c5c5e0,box
+formed by weathering,white,box
+natural bridge,#c5c5e0,box
+spanning a ravine or valley,white,box
+formed by erosive agents,white,box
+thick layer,white,box
+at the point where its stream disappears underground,white,box
+blowhole,#c5c5e0,box
+through which air and water are forced by incoming waves,white,box
+near the shore,white,box
+"through which air blows in and out with observable force , sometimes audibly",white,box
+blue hole,#c5c5e0,box
+water rises from below without great turbulence,white,box
+drowned,white,box
+bogaz,#c5c5e0,box
+enlarged by solution of the limestone,white,box
+boiling spring,#c5c5e0,box
+turbulent,white,box
+bone-breccia,#fdb87b,box
+botryoid,#c5c5e0,box
+grapelike,white,box
+generally found on walls of caves,white,box
+clusterite,#c5c5e0,box
+grape formation,#c5c5e0,box
+bourne,#c5c5e0,box
+Intermittent,white,box
+in a normally dry valley in chalk country,white,box
+boxwork,#c5c5e0,box
+Network of thin blades,white,box
+etched out in relief on the limestone walls and ceiling of a cave,white,box
+bridge,#fdb87b,box
+a residual rock span across a passage,white,box
+buried karst,#c5c5c5,box
+buried by younger sediments,white,box
+calcarenite,#fdb87b,box
+Size of particles ranges from 1 / 16 to 2 millimeters,white,box
+calcilutite,#fdb87b,box
+in which the grains have an average diameter of less than 1 / 16 millimeter,white,box
+calcareous mudstone,#fdb87b,box
+calcirudite,#fdb87b,box
+fragmental,white,box
+in which the particles are generally larger than 2 millimeters,white,box
+calcite,#fdb87b,box
+like aragonite but differing in crystal form,white,box
+calcite bubble,#c5c5e0,box
+"the interior is smooth , and the exterior consists of small jagged crystals",white,box
+formed by the deposition of calcite around a gas bubble,white,box
+forming a fringe of shawls or stalactites on the outer edge,white,box
+hanging from a sloping wall projection,white,box
+steep-walled,white,box
+cut by running water,white,box
+formed by collapse of the roof of a long fairly straight cave,white,box
+capillary stalagmite,#c5c5e0,box
+formed by saturated karst water pushed up through capillaries and small cracks,white,box
+in a sinter crust,white,box
+carbonate,#fdb87b,box
+room or series of rooms and passages,white,box
+generally formed by solution of limestone,white,box
+large enough to be entered by a man,white,box
+cave breakdown,#fdb87b,box
+by fall of rock masses from walls and ceiling,white,box
+have collapsed from the walls and ceiling of a cave,white,box
+cave breccia,#fdb87b,box
+Angular,white,box
+forming a fill,white,box
+either cemented together by dripstone or in a matrix of cave earth,white,box
+resembling coral in shape,white,box
+"found on floor , walls , or ceiling of a cave",white,box
+generally small,white,box
+coral formation,#c5c5e0,box
+flooring or filling a cave passage,white,box
+outflow cave,#c5c5e0,box
+palaeokarst,#c5c5c5,box
+remnant from a previous period of karstification,white,box
+pendulite,#c5c5e0,box
+submerged part covered with dog-tooth spar to give the appearance of a drumstick,white,box
+which has been partly submerged,white,box
+percolation water,#fdb87b,box
+"moving mainly downwards through pores , cracks and tight fissures",white,box
+in the vadose zone,white,box
+permeability,#fdb87b,box
+permitting water to pass through it,white,box
+phreatic water,#fdb87b,box
+below the level at which all voids in the rock are completely filled with water,white,box
+phreatic zone,#c5c5c5,box
+where voids in the rock are completely filled with water,white,box
+pillar,#c5c5e0,box
+from roof to floor,white,box
+left by the removal of surrounding rock,white,box
+pipe,#c5c5e0,box
+tubular,white,box
+into ' karst rocks,white,box
+projecting as much as several metres down from the surface,white,box
+plunge pool,#fdb87b,box
+generally of large size,white,box
+polje,#c5c5e0,box
+with a flat floor across which there may be an intermittent or perennial stream,white,box
+polygonal karst,#c5c5c5,box
+pitted by closed depressions,white,box
+porosity,#fdb87b,box
+rock or soil,white,box
+pseudokarst,#c5c5c5,box
+resemble those of karst,white,box
+relict karst,#c5c5c5,box
+open to modification by present-day processes,white,box
+produced by earlier geomorphic processes within the present cycle of karstification,white,box
+tecto-karstic hollow,#c5c5e0,box
+closed basin,white,box
+evolved through karst processes,white,box
+inside a tectonic depression,white,box
+in the karst terrains,white,box
+"with a wide , flat and nearly horizontal floor , completely enclosed between steep slopes",white,box
+peripheral polje,#c5c5e0,box
+base-level polje,#c5c5e0,box
+with a floor cut entirely across karst rocks,white,box
+littoral cave,#c5c5e0,box
+within the range of tides,white,box
+form by wave erosion,white,box
+in coastal areas that contain exposed bedrock,white,box
+flank margin caves,#c5c5e0,box
+series of oval rooms,white,box
+result of developing in the thinning margin of the freshwater lens,white,box
+"extensive in the horizontal direction , but limited in the vertical direction",white,box
+blue holes,#c5c5e0,box
+open to the Earth ’ s surface,white,box
+provide access to submerged cave passages,white,box
+extend below sea level for a majority of their depth,white,box
+limonite,#fdb87b,box
+sandstone,#fdb87b,box
+karst forms,#c5c5e0,box
+formed mainly by solutional processes of carbonate rocks,white,box
+surface and subsurface,white,box
+above known large caves,white,box
+depressions with flat bottoms,white,box
+result of solutional processes and karst water drainage,white,box
+lack an active watercourse over all or parts of their length,white,box
+because water is lost in karst or is in a much lower position,white,box
+influent cave,#c5c5e0,box
+into which a stream flews or formerly entered,white,box
+jama,#c5c5e0,box
+Vertical or steeply inclined shaft,white,box
+pothole,#c5c5e0,box
+abime,#c5c5e0,box
+joint-plane cave,#c5c5e0,box
+developed along steeply dipping joint planes,white,box
+high in relation to width,white,box
+separated by ridges,white,box
+caused by solution,white,box
+vary in depth from a few millimeters to more than a meter,white,box
+shallow channels separated by sharp ridges,white,box
+2 - 3 centimeters apart,white,box
+rinnenkarren,#c5c5e0,box
+flat-bottomed grooves,white,box
+several centimeters apart,white,box
+kluftkarren,#c5c5e0,box
+joints enlarged by solution,white,box
+spitzkarren,#c5c5e0,box
+extending down from steep spires or pinnacles,white,box
+large deep grooves,white,box
+meanderkarren,#c5c5e0,box
+winding or meandering channels,white,box
+rundkarren,#c5c5e0,box
+having rounded channels and intervening rounded ridges,white,box
+reexhumed after formation under soil or peat,white,box
+fachkarren,#c5c5e0,box
+bodenkarren,#c5c5e0,box
+karrenfeld,#c5c5e0,box
+formed by the dissolving of rock,white,box
+karst barre,#c5c5c5,box
+karst base level,#fdb87b,box
+karstification does not take place,white,box
+karst bridge,#c5c5e0,box
+bridge or arch,white,box
+karst fens,#c5c5e0,box
+developed in sinkhole terrain,white,box
+karst lake,#c5c5e0,box
+in extensive closed depression,white,box
+karst margin plain,#c5c5e0,box
+plain,white,box
+"having a cover of impervious detritus , which allows surface drainage",white,box
+karst plain,#c5c5e0,box
+karst pond,#c5c5e0,box
+Closed depression,white,box
+in a karst area,white,box
+karst river,#c5c5e0,box
+originates from a karst spring,white,box
+calcretes,#fdb87b,box
+as a result of concentration processes by near-surface evaporation,white,box
+near the water table in arid lands,white,box
+marginal cave,#c5c5e0,box
+the origin of such caves was due to wave action and their gradual loss of connection to the sea,white,box
+by its position at the sea coast,white,box
+halocline,#fdb87b,box
+where the salinity abruptly changes,white,box
+glaciers,#fdb87b,box
+accumulates on the upper elevations of a glacier,white,box
+denuded karst,#c5c5c5,box
+with substantial inheritance of solution porosity from the preceding stages of intrastratal development,white,box
+develops where the soluble rock has been almost completely exposed from beneath the cover,white,box
+open karst,#c5c5c5,box
+gypsum needles,#c5c5e0,box
+"straight , clear",white,box
+that grow by extrusion from the soil,white,box
+in some caves,white,box
+cave cotton,#fdb87b,box
+generally with fiber lengths of a few tens of centimeters but diameters of tens or hundreds of micrometers,white,box
+pores,#fdb87b,box
+available for the storage of water,white,box
+In porous media aquifers,white,box
+draining open conduit systems,white,box
+hydrothermal karst,#c5c5c5,box
+network caves,#c5c5e0,box
+formed by widening of nearly all major fractures,white,box
+within favorable areas of soluble rocks,white,box
+bamboo,#c5c5e0,box
+thermoindicator,#c5c5e0,box
+flutes,#c5c5e0,box
+vertical,white,box
+that develop where a water film flows down a high angle rock face,white,box
+longitudinal rills,#c5c5e0,box
+jamas,#c5c5e0,box
+sinking deep into the carbonate massive,white,box
+of greater dimensions,white,box
+zone of vertical circulation,#c5c5c5,box
+area with large joints,white,box
+"through which the water circulates quickly , predominantly in the ver - tical direction , down to the groundwater level .",white,box
+speleothems,#c5c5e0,box
+"take on the form of stalactites , stalagmites , flowstone , and other forms",white,box
+conduits,#c5c5e0,box
+through which water moves from sinkholes and sinking streams to the outlets at springs,white,box
+in limestone,white,box
+aeolian cave,#c5c5e0,box
+bowl-shaped,white,box
+in solid rock,white,box
+lava conduits,#c5c5e0,box
+by the crusting over of channels .,white,box
+within streams of lava,white,box
+tunnels,#c5c5e0,box
+tubes,#c5c5e0,box
+pyroducts,#c5c5e0,box
+cave-wall biofilms,#fdb87b,box
+on subaerial cave-wall surfaces,white,box
+biofilms,#fdb87b,box
+microbial draperies,#fdb87b,box
+snottites,#fdb87b,box
+tiankeng,#c5c5e0,box
+with perimeter walls that are close to vertical,white,box
+"at least 100 m long , wide and deep",white,box
+cenotes,#c5c5e0,box
+open depressions,white,box
+giving access to the water table,white,box
+resulting from the collapse of the roof of submerged cavities,white,box
+in the coastal karst belts,white,box
+subsidence dolines,#c5c5e0,box
+caused by the subsiding of an area .,white,box
+intersection dolines,#c5c5e0,box
+"formed when an old cave system , partially or totally filled with sediments , is cut by the topographic surface as a consequence of the lowering of such a surface by chemical erosion",white,box
+compound hollow,#c5c5e0,box
+originated from the fusion of simpler forms,white,box
+polygenetic sink,#c5c5e0,box
+evolved through both the karst process and another morphogenetic process,white,box
+limestone pavement,#fdb87b,box
+commonly divided into blocks by solutionally widened joints,white,box
+lost river,#c5c5e0,box
+a surface stream,white,box
+In a karst region,white,box
+lycopodium spores,#acdda6,box
+which can be used in natural or dyed color as a label,white,box
+in karst areas,white,box
+meander,#c5c5e0,box
+an arcuate curve,white,box
+formed by lateral shifting of a cave stream,white,box
+in a channel,white,box
+conical or crescentshaped opening,white,box
+formed by the downward and lateral erosion of a stream on the floor of a passage,white,box
+in the wall of a cave,white,box
+merokarst,#c5c5c5,box
+microkarst,#c5c5c5,box
+surficial features are small,white,box
+mischungskorrosion,#aacfe5,box
+derived from the mixing of two saturated waters that differ in carbon dioxide partial pressure,white,box
+karst inselberg,#c5c5e0,box
+karst residual hills,white,box
+mogote,#c5c5e0,box
+moon milk,#fdb87b,box
+plastic,white,box
+mud stalagmite,#c5c5e0,box
+naked karst,#c5c5c5,box
+bare karst,#c5c5c5,box
+rock arch,white,box
+rock bridge spanning a ravine,white,box
+not yet eroded away,white,box
+natural tunnel,#c5c5e0,box
+generally fairly straight in direction and fairly uniform in cross section,white,box
+sanidine,#fdb87b,box
+montmorillonite,#fdb87b,box
+product of intensive acidic weathering of volcaniclastic material,white,box
+smectite,#fdb87b,box
+input caves,#c5c5e0,box
+leading to epiphreatic tube passages,white,box
+juvenile pattern,#fdb87b,box
+prevails where soluble rocks are exposed by uplift and by removal of any impermeable cover,white,box
+microforms,#c5c5e0,box
+Smaller scale forms,white,box
+step-wise calibration,#acdda6,box
+allowed calibrating the different components of the streamflow according to different hydrologic processes,white,box
+secondary porosity,#fdb87b,box
+in the post-petrification period,white,box
+gravitational water,#fdb87b,box
+"due to gravity , penetrates and flows into the underground system",white,box
+specific yield,#fdb87b,box
+surface karst forms,#c5c5e0,box
+shaft,#c5c5e0,box
+shake,#c5c5e0,box
+especially one formed by subsidence,white,box
+shakehole,#c5c5e0,box
+"formed by solution , subsidence , and compaction",white,box
+shawl,#c5c5e0,box
+triangular-shaped,white,box
+by trickling water,white,box
+"formed on walls , shelves , benches , and terraces",white,box
+shield,#c5c5e0,box
+disk-shaped,white,box
+standing edgewise at a high angle,white,box
+sink,#c5c5e0,box
+"They may be basin , funnel , or cylindrical shaped",white,box
+sinkhole,#c5c5e0,box
+sinkhole plain,#c5c5c5,box
+nearly all drainage is subterranean,white,box
+sinkhole pond,#c5c5e0,box
+due to an impervious clay floor or to intersection of depression with the water table,white,box
+in closed depression,white,box
+sinking creek,#c5c5e0,box
+that disappears underground,white,box
+sinter,#fdb87b,box
+deposited by a mineral spring,white,box
+siphon,#c5c5e0,box
+in which the ceiling dips below a water surface,white,box
+slump pit,#fdb87b,box
+caused by erosion beneath the fill,white,box
+the clay fill of a cave floor,white,box
+solution pan,#c5c5e0,box
+generally characterized by flat bottom and overhanging sides,white,box
+solution,white,box
+panhole,#c5c5e0,box
+opferkessel,#c5c5e0,box
+tinajita,#c5c5e0,box
+kamenitza,#c5c5e0,box
+solution pipe,#c5c5e0,box
+often without surface expression,white,box
+attributable to solution,white,box
+sotano,#c5c5e0,box
+can store and transmit significant quantities of water,white,box
+forms in seawater,white,box
+artesian aquifer,#c5c5c5,box
+bounded on top and bottom by confining beds,white,box
+not enlarged by growth into a major tube or canyon,white,box
+has remained almost entirely on the bedding plane,white,box
+cirque-dolines,#c5c5e0,box
+have been transformed by solution into closed depressions,white,box
+aquitard,#c5c5c5,box
+keeps groundwater from draining away,white,box
+confining bed,#fdb87b,box
+aquiclude,#c5c5c5,box
+contact karst,#c5c5c5,box
+formed by the influence surface river flow,white,box
+drawdown,#aacfe5,box
+endokarst,#c5c5c5,box
+where the internal ( telluric ) energy is dominant and the rock mass is under lithostatic pressure which exceeds its tensile strength,white,box
+in the lower part of the karstosphere,white,box
+uppermost zone of exposed karst rock,white,box
+subcutaneous zone,#c5c5c5,box
+highly corroded,white,box
+near the surface,white,box
+estavelle,#c5c5e0,box
+created by the dissolution of carbonate rocks,white,box
+product   of processes that operate,white,box
+on continental land masses,white,box
+arising from the combination of high rock solubility and well-developed solution channel ( secondary ) porosity underground,white,box
+"developed on especially soluble rocks such as limestone , marble , and gypsum",white,box
+karst conduit networks,#c5c5c5,box
+the length of conduits wider than about 1 cm in diameter,white,box
+karst depression,#c5c5e0,box
+karst topography,#c5c5c5,box
+shaped by the dissolution of soluble bedrock,white,box
+karst windows,#c5c5e0,box
+exposing the river to the surface,white,box
+caused by collapse of an underground cavern,white,box
+karstosphere,#c5c5c5,box
+spatially discontinuous layer,white,box
+konta,#c5c5e0,box
+"closed karst depression , like a doline",white,box
+that has been remodelled during Pleistocene glaciation .,white,box
+losing streamflow,#c5c5e0,box
+contributes water to the karst groundwater system,white,box
+in localized areas,white,box
+rill,#c5c5e0,box
+on surface exposures of limestone,white,box
+rillenstein,#c5c5e0,box
+Microsolution,white,box
+on rock surface,white,box
+rimstone,#fdb87b,box
+"formed around the rims of overflowing basins , especially in caves",white,box
+rimstone barrage,#fdb87b,box
+wall-shaped,white,box
+"in caves , around springs",white,box
+gour,#fdb87b,box
+rimstone dam,#fdb87b,box
+rimstone barrier,#fdb87b,box
+rimstone pool,#c5c5e0,box
+kept in place by a rimstone dam,white,box
+rise,#c5c5e0,box
+rock pillar,#c5c5e0,box
+mass of bedrock,white,box
+rock pinnacle,#c5c5e0,box
+A tall sharp projection of bedrock,white,box
+rising from the floor of a cave,white,box
+rock shelter,#c5c5e0,box
+Shallow,white,box
+"where streams have undercut their banks at bends , or where there has been abrasion by blowing sand",white,box
+under an overhanging rock ledge,white,box
+roof crust,#c5c5e0,box
+"thin films of water , which have crept over the rock from pore or crack sources .",white,box
+deposited on ceilings of caves,white,box
+room,#c5c5e0,box
+that is wider than a passage,white,box
+sand stalagmite,#c5c5e0,box
+formed on sand,white,box
+scaling chip,#fdb87b,box
+which has fallen from the ceiling or wall of a eave,white,box
+scaling plate,#fdb87b,box
+A small flat piece of rock of rectangular or polygonal shape,white,box
+that has fallen to the floor of a cave,white,box
+Oval hollow having an asymmetric cross section along its main axis,white,box
+Scallops form patterns on tl e walls of caves and in streambeds,white,box
+sea cave,#c5c5e0,box
+eroded by waves or currerts or dissolved by water,white,box
+in a sea cliff,white,box
+faults,#fdb87b,box
+along which movement has occurred or still occurs,white,box
+fission-track method,#acdda6,box
+encrust floors or walls,white,box
+fluviokarst,#c5c5c5,box
+visible surface expression of the fissures of a karstifiable rock,white,box
+are a significant component of the epikarst,white,box
+grikes,#c5c5e0,box
+hypogene karst,#c5c5c5,box
+independent of the recharge from the overlying or immediately adjacent surface,white,box
+inphase component,#acdda6,box
+range from 1 cm to 10 m in greatest dimension,white,box
+interaction between soluble rocks and different waters,white,box
+karstification,#aacfe5,box
+differential chemical and mechanical erosion by water on soluble bodies of rock,white,box
+at or near the Earth ’ s surface,white,box
+indicates dissolution ( also called chemical solution ) of underlying soluble rocks by surface water or ground water,white,box
+"distinctive type of landscape that develops from the dissolving action of water on soluble bedrock , primarily limestone and marble but also dolostone , gypsum and halite",white,box
+"terrain , generally",white,box
+terrains underlain by soluble rock,white,box
+on cave walls or formations close to a light source .,white,box
+visitor capacity,#fdb87b,box
+allogeneic waters,#fdb87b,box
+derived from nonlocal sources,white,box
+base level,#fdb87b,box
+cover-collapse sinkhole,#c5c5e0,box
+suffosion dolines,#c5c5e0,box
+depressions,white,box
+usually only a few meters in diameter and depth,white,box
+may have different forms and surface expressions,white,box
+hypogene speleogenesis,#aacfe5,box
+water,white,box
+vertical through structures,#c5c5e0,box
+vertically extended collapse features,white,box
+by-product of hypogene speleogenesis,white,box
+result of dissolution of soluble rocks by groundwater,white,box
+"form on the ceilings , walls , and floors of caves .",white,box
+straw stalactites,#c5c5e0,box
+hollow tubes,white,box
+about 5 mm in diameter,white,box
+helictites,#c5c5e0,box
+erratic stalactite-like form,white,box
+occurs when seepage rates are too slow for complete drops to form,white,box
+cave pearls,#c5c5e0,box
+"near-spherical , unattached speleothem",white,box
+agitated by water dripping from considerable heights,white,box
+form in pools,white,box
+dissolutional potholes,#c5c5e0,box
+sharp-edged ### rounded-interior,white,box
+in stream beds,white,box
+anastamose,#c5c5e0,box
+pattern of interweaving channels,white,box
+pendants,#c5c5e0,box
+hanging from passage ceilings,white,box
+typically B10 — 100 cm in dimension,white,box
+cupolas,#c5c5e0,box
+of thermal caves,white,box
+remnant rounded pinnacles,white,box
+has formed under an acidic soil cover,white,box
+sinkhole plains,#c5c5c5,box
+doline karst,#c5c5c5,box
+are accessible to human exploration,white,box
+"occurs as short to long prismatic ( along c ) , acicular or tabular ( chisel-shaped ) crystals , often twinned",white,box
+wad,#fdb87b,box
+knickpoints,#fdb87b,box
+may form as a response to a sudden drop in the water table,white,box
+"are circular , oval , or irregular in shape",white,box
+where passages intersect,white,box
+is wide relative to its length,white,box
+pits,#c5c5e0,box
+form of vadose passage,white,box
+flute,#c5c5e0,box
+"elongate , nearly parallel crested forms",white,box
+in some cave passages,white,box
+exhalation,#fdb87b,box
+whiting,#fdb87b,box
+derived by fine grinding,white,box
+such that > 95% is < 44 µm,white,box
+relict sea caves on former coastlines,white,box
+slabs,#c5c5e0,box
+fragments of a single bed,white,box
+a few cubic metres in volume,white,box
+seems to be originated by microbiological reactions,white,box
+margin,#fdb87b,box
+forms the island,white,box
+under the flank of the high ground,white,box
+speleotherapy,#acdda6,box
+involving subterranean environments and their specific microclimate,white,box
+exsurgences,#c5c5e0,box
+receive the bulk of their recharge from a karst surface,white,box
+in autogenic aquifers,white,box
+open anchialine pools,#c5c5e0,box
+connected to the sea by cave corridors,white,box
+coastal,white,box
+fungi,#fdb87b,box
+important decomposers,white,box
+glaciokarstic varves,#fdb87b,box
+"silty , laminated sediments",white,box
+vulcanospeleology,#acdda6,box
+anchialine,#c5c5e0,box
+pools with no surface connection to the sea,white,box
+entrances,#c5c5e0,box
+accidental intersections of the caves by surface erosion,white,box
+fengcong,#c5c5e0,box
+rising from shared limestone foot-slopes .,white,box
+fenglin,#c5c5e0,box
+isolated from each other by flat limestone surfaces,white,box
+radiolocation,#acdda6,box
+to find out where the extremities of a cave lie and reduce cumulative errors in the survey,white,box
+where groups of residual hills share a common exposed bedrock base,white,box
+peak forest,#c5c5c5,box
+artificial underground reservoir,#fdb87b,box
+to control the discharge regime of artificially stored water,white,box
+valleys,#c5c5e0,box
+of most karst regions,white,box
+pocket valleys,#c5c5e0,box
+they occur in association with large springs close to the margins of karst areas,white,box
+with internal drainage,white,box
+typically formed in karst environments,white,box
+sinkholes,#c5c5e0,box
+are formed due to coalescence of several dolines,white,box
+with undulating floors,white,box
+floored by sinkholes,white,box
+bowl shaped,white,box
+paleokarst,white,box
+has been buried beneath younger sediments,white,box
+flank-margin caves,#c5c5e0,box
+as a result of sea-water and freshwater mixing,white,box
+inside the coastline,white,box
+develops in carbonate coastlines,white,box
+morphometry,#acdda6,box
+dissolutional corridors,#c5c5e0,box
+follow major vertical fractures,white,box
+created by the doming,white,box
+in the limestone,white,box
+found on all continents,white,box
+caves without roofs,#c5c5e0,box
+without roofs,white,box
+paleokarst aquifers,#c5c5c5,box
+important sources of water,white,box
+palynology,#acdda6,box
+provide important evidence about ancient environments,white,box
+paragenesis,#aacfe5,box
+network mazes,#c5c5e0,box
+angular grids of intersecting fissures guided by fractures,white,box
+spongework mazes,#c5c5e0,box
+irregular,white,box
+enlarged from primary pores,white,box
+blind valleys,#c5c5e0,box
+valleys usually terminate abruptly in a cliff or steep slope,white,box
+Large allogenic streams penetrate farther into the karst in well-defined valleys before they sink,white,box
+pre-ponor retention,#aacfe5,box
+in the surface depression just above the ponor,white,box
+pseudokarstic caves,#c5c5e0,box
+large enough to enter and investigate,white,box
+emanation,#fdb87b,box
+depends on the concentration of uranium ( which then decays to radium ) in the material,white,box
+k,#fdb87b,box
+epik system,#acdda6,box
+intended particularly for use in the karst of the Jura mountains,white,box
+fengcong karst,#c5c5c5,box
+paleocave system,#c5c5c5,box
+paleocave hydrocarbon reservoir,#c5c5c5,box
+karst-related cavernous porosity and / or of cave-collapse-related interclast and fracture porosity,white,box
+does not experience exchange with stream water,white,box
+deep portion of an aquifer,white,box
+arêtes,#c5c5e0,box
+"naked , reticulated , saw-topped ridges with spires",white,box
+c . 120 m high,white,box
+microrills,#c5c5e0,box
+distinctive rilling appearance,white,box
+smallest,white,box
+rainpits,#c5c5e0,box
+"cup-like hollows , sub-circular in plan and nearly parabolic in cross section",white,box
+decantation runnels,#c5c5e0,box
+reduce in width and depth downslope,white,box
+"the solvent supply is not directly related to rainfall , but corresponds to overspilling stores of water , such as moss clumps , small snow banks , or soil remnants",white,box
+cutters,#c5c5e0,box
+develops beneath soil cover,white,box
+in some parts of the cave,white,box
+halite,#fdb87b,box
+colluvial transport,#aacfe5,box
+without the assistance of water,white,box
+down-slope,white,box
+stalactites,#c5c5e0,box
+hanging from the ceiling,white,box
+centimeter to meter in scale,white,box
+stalagmitic flowstones,#c5c5e0,box
+formed by a thin flowing film of water itself fed by groups of dripping stalactites,white,box
+coat the cave floor and walls,white,box
+soda straws,#c5c5e0,box
+characterized by a central canal with constant diameter and by a wall structure that is controlled by geometric selection during growth,white,box
+generated by axial feeding,white,box
+stalagmites,#c5c5e0,box
+"show flat , rounded , or slightly hollow tops , but not a central canal",white,box
+fed by an overhanging stalactite,white,box
+zone of bedrock modified by solution located at or near the surface,white,box
+ponors,#c5c5e0,box
+the point at which a sinking stream heads underground,white,box
+swallow holes,#c5c5e0,box
+"sinkholes that form in a stream bed , often with a large vertical shaft beneath",white,box
+direct runoff into an underground channelóin,white,box
+intrastratal karstification,#aacfe5,box
+"within a sequence of soluble rocks , e.g . a gypsum bed in a dolomite formation",white,box
+exokarst,#c5c5c5,box
+at the surface,white,box
+cryptokarst,#c5c5c5,box
+"developed beneath a blanket of permeable sediments such as soil , till , periglacial deposits and residual clays",white,box
+Karst-like landforms,white,box
+produced by processes other than dissolution or corrosion-induced subsidence and collapse,white,box
+thermokarst,#c5c5c5,box
+resulting from thawing of ground ice,white,box
+holokarst,#c5c5c5,box
+extending well below baselevel,white,box
+developed on thick limestones,white,box
+Concentrated inflows of water from allogenic sources sink underground,white,box
+swallets,#c5c5e0,box
+stream-sinks,#c5c5e0,box
+"well layered , quite lustrous and lacks framing plant content",white,box
+where rapid deposition is encouraged by evaporation,white,box
+near cave entrances,white,box
+spheres,white,box
+range ~ 0.2 to 10 – 15 mm in diameter,white,box
+cristobalite,#fdb87b,box
+fine-grained,white,box
+occurs as thin interlayers in some calcite and gypsum speleothems,white,box
+opal,#fdb87b,box
+static cave,#c5c5e0,box
+deep hole with no air drainage out of the bottom,white,box
+"it traps cold , dense air and excludes warmer air",white,box
+primary porosity,#fdb87b,box
+Shaft-like depressions deeply flooded by seawater,white,box
+in low-lying coral islands,white,box
+suffosion,#aacfe5,box
+by a combination of physical downwashing and chemical solution,white,box
+in the karstified bedrock,white,box
+carbonatites,#fdb87b,box
+pit caves,#c5c5e0,box
+1 – 2 m in diameter and up to 15 m deep,white,box
+mogotes,#c5c5e0,box
+isolated,white,box
+in the northern section,white,box
+rise from the blanket sands,white,box
+extreme form of karst,white,box
+"develops where dissolution rates , tectonic uplift , and alluviation maintain a critical balance",white,box
+solution dolines,#c5c5e0,box
+10 – 100 m in diameter and up to 30 m in depth,white,box
+vertical shafts,#c5c5e0,box
+truncated by glaciation,white,box
+where streams sink underground,white,box
+in bouldery deposits such as glacial drift overlying limestone,white,box
+collapse,#aacfe5,box
+rapid downward,white,box
+fovals,#fdb87b,box
+"can be found in different positions in the caves , on the floor , or on the rocky walls",white,box
+kettle holes,#c5c5e0,box
+assembled into extensive debris pseudokarst hillocks,white,box
+developing closed depressions,white,box
+where buried ice melts in situ,white,box
+develops in debris,white,box
+resurgences,#c5c5e0,box
+reflect the changing water quality of the sinking streams,white,box
+in allogenic karst aquifers,white,box
+Autogenic karst aquifers feed,white,box
+karstic terrain,white,box
+turm,#c5c5e0,box
+tower,#c5c5e0,box
+pepino,#c5c5e0,box
+piton,#c5c5e0,box
+cone,#c5c5e0,box
+hum,#c5c5e0,box
+breccia pipes,#c5c5e0,box
+created by progressive stoping above sites of interstratal dissolution,white,box
+gypsum karst,white,box
+bubbles,#c5c5e0,box
+round or elliptical in plan,white,box
+gypsum tumuli,#c5c5e0,box
+tents,#c5c5e0,box
+rillensteine,#fdb87b,box
+solution runnels,#c5c5e0,box
+where sheetflow or wash on a slope breaks down into linear threads,white,box
+karst in humid areas,white,box
+in the humid tropics and subtropics,white,box
+small-scale,white,box
+preserving important archaeological evidence as well as sediments and deposits that provide clues to past environments,white,box
+water-filled vertical openings,white,box
+in the carbonate rock of the islands,white,box
+"composite result of carbonate deposition and dissolution cycles , which have been controlled by glacial sea-level fluctuations",white,box
+extend below sea-level for a majority of their depth,white,box
+carbon dioxide,#fdb87b,box
+diagenesis,#aacfe5,box
+product of diagenesis,white,box

@@ -1,0 +1,21 @@
+node,color,shape
+Category,yellow,box
+A. Landform,#796fb3,box
+A.1 Surface landform,#8b88bf,box
+A.2 Underground landform,#8b88bf,box
+A.3 Hydrological form,#8b88bf,box
+A.4 Other,#8b88bf,box
+B. Process,#3888c0,box
+B.1 Movement,#519ccc,box
+B.2 Loss,#519ccc,box
+B.3 Addition,#519ccc,box
+B.4 Transformation,#519ccc,box
+C. Geome,#696969,box
+D. Element/Entity/Property,#e95f0d,box
+D.1 Abiotic,#f57622,box
+D.2 Biotic,#f57622,box
+D.3 Property,#f57622,box
+D.3.1 Geolocation,#f77b28,box
+E. Instrument or method,#37a155,box
+E.1 Instrument,#54b466,box
+E.2 Method,#54b466,box

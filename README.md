@@ -3,13 +3,22 @@
 NetViz is a single page, client only web application which enables easy visualization of networks. It does not require installation and supports CSV input format which is easy to read and write. It is based on [vis.js](https://github.com/visjs/vis-network) and allows for interactive visualization of fairly "big" networks (up to 1000 nodes or so).
 
 #### Requirements
-None except a recent web browser
+
+None (except a recent web browser)
+
 
 #### How to use
+
 Download the repository and open the `index.html` file in your browser. Check the header lines of the sample data to get an idea how to format your own data. If you are familiar with Javascript and [vis.js](https://github.com/visjs/vis-network), you can easily add your own node and edge attributes to the input format.
 
 
+#### Examples
+
+The `examples` folder contains two datasets which represent a taxonomy of Karst that was extracted from manually annotated domain corpora. The `small` folder contains edges and nodes describing the very top of the taxonomy while the `big` folder contains edges and nodes describing the complete taxonomy including the corresponding parts of annotated sentences.
+
+
 #### Author
+
 Vid Podpečan <vid.podpecan@ijs.si>
 
 
