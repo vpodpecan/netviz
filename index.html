@@ -30,6 +30,8 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/verge@1.10.2/verge.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sprintf/1.1.2/sprintf.min.js"></script>
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/vex-js/4.1.0/css/vex.min.css" rel="stylesheet" type="text/css" />
@@ -109,7 +111,20 @@
                         <div class="col-12">
                          <button id="drawGraphButton" type="button" class="btn btn-primary btn-sm">draw</button>
                          <button id="freezeBtn" type="button" class="btn btn-outline-secondary  btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">freeze</button>
+
                          <button id="configButton" type="button" class="btn btn-outline-info btn-sm float-right"><span class="oi oi-cog"></span></button>
+
+
+                         <div class="dropdown d-inline-block float-right mr-2">
+                           <button class="btn btn-info dropdown-toggle btn-sm" type="button" id="saveAsButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             save
+                           </button>
+                           <div class="dropdown-menu" id="saveAsDropdown" aria-labelledby="dropdownMenuButton">
+                             <a class="dropdown-item" href="#nodes">nodes (.csv format)</a>
+                             <a class="dropdown-item" href="#edges">edges (.csv format)</a>
+                           </div>
+                         </div>
+
                         </div>
 
                 </div>

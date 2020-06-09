@@ -37,17 +37,18 @@ netviz.options = {
                     '</div>'
                 ].join(''),
                 callback: function (data) {
-                    // if (!data) {
-                    //     return;
-                    // }
+                    if (!data) {
+                        return;
+                    }
                     nodeData.label = data.label!=undefined ? data.label.trim() : undefined;
                     nodeData.title = data.text!=undefined ? make_tooltip('', data.text.trim()): undefined;
-                    //
-                    // if (data.text == undefined)
-                    //     data.text = '';
-                    // nodeData.label = data.label;
-                    // nodeData.title = make_tooltip(data.label, data.text);
-                    callback(nodeData);
+                    nodeData.id = nodeData.label;
+
+                    if (netviz.nodes.getIds().indexOf(nodeData.id) != -1) {
+                        vex.dialog.alert('Node with the same label already exists!');
+                    }
+                    else
+                        callback(nodeData);
                 }
             })
         },
@@ -82,9 +83,9 @@ netviz.options = {
                     '</div>',
                 ].join(''),
                 callback: function (data) {
-                    // if (!data) {
-                    //     return;
-                    // }
+                    if (!data) {
+                        return;
+                    }
                     edgeData.label = data.label!=undefined ? data.label.trim() : undefined;
                     edgeData.title = data.text!=undefined ? make_tooltip('', data.text.trim()) : undefined;
                     edgeData.arrows = data.arrows;
@@ -609,15 +610,137 @@ function initContextMenus() {
 
 }
 
+function format_cell(s){
+    s = s.toString();
+    s = s.trim();
+    s = s.replace('\n', '');
+    if (s[0]!='"' && s.slice(-1)!='"' && s.search(',')!=-1){
+        s = '"' + s + '"';
+    }
+    return s;
+}
+
+function format_arrow(edge){
+    if (edge.arrows == 'to')
+        return '->';
+    else if (edge.arrows == 'from')
+        return '<-';
+    else if (edge.arrows == 'from,to')
+        return '<->';
+    else if (edge.arrows == '')
+        return '--';
+    else
+        return '';
+}
+
+
+function export_edges(){
+    var data = [['node1','node2','arrow','label','text','color','width']];
+    netviz.edges.forEach(function(edge, id){
+        var line = new Array;
+
+        [edge.from, edge.to].forEach(function(atr){
+            if (atr != undefined)
+                line.push(format_cell(atr));
+            else
+                line.push('');
+        })
+
+        if (edge.arrows != undefined)
+            line.push(format_arrow(edge))
+        else
+            line.push('');
+
+        [edge.label, edge.title].forEach(function(atr){
+            if (atr != undefined)
+                line.push(format_cell(atr.replace('<div class="customTooltip">', '').replace('</div>', '')));
+            else
+                line.push('');
+        })
+
+        if (edge.color != undefined)
+            line.push(format_cell(edge.color))
+        else
+            line.push('');
+
+        if (edge.width != undefined)
+            line.push(format_cell(edge.width))
+        else
+            line.push('');
+
+        data.push(line);
+    })
+
+    var datalines = new Array;
+    data.forEach(function(line_elements){
+        datalines.push(line_elements.join(','));
+    })
+    var csv = datalines.join('\n');
+
+    var blob = new Blob([csv], {type: "text/csv;charset=utf-8"});
+    saveAs(blob, "edges.csv");
+}
+
+
+function export_nodes() {
+    var data = [['node','text','color','shape']]
+    netviz.nodes.forEach(function(node, id){
+        var line = new Array;
+        if (node.label != undefined)
+            line.push(format_cell(node.label));
+        else
+            line.push('');
+
+        if (node.title != undefined)
+            line.push(format_cell(node.title.replace('<div class="customTooltip">', '').replace('</div>', '')));
+        else
+            line.push('');
+
+        if ((node.color != undefined) && (node.color.background != undefined))
+            line.push(format_cell(node.color.background));
+        else
+            line.push('');
+
+        if (node.shape != undefined)
+            line.push(format_cell(node.shape));
+        else
+            line.push('');
+
+        data.push(line);
+    })
+
+    var datalines = new Array;
+    data.forEach(function(line_elements){
+        datalines.push(line_elements.join(','));
+    })
+    var csv = datalines.join('\n')
+
+    var blob = new Blob([csv], {type: "text/csv;charset=utf-8"});
+    saveAs(blob, "nodes.csv");
+}
+
+
 $(document).ready(function () {
     $('#drawGraphButton').click(draw_graph)
     $('#freezeBtn').click(freeze);
     $('#configButton').click(showSettings);
-    $('#clearEdgeDataButton').click(function(){$('#edgedata').val('')});
-    $('#clearNodeDataButton').click(function(){
-        $('#nodedata').val('');
-        $('#edgecsvfile').val('');
+    $('#clearEdgeDataButton').click(function(){
+        $('#edgedata').val('node1,node2,arrow,label,text,color,width');
+        $('#edgecsvfile').text('Choose file');
     });
+    $('#clearNodeDataButton').click(function(){
+        $('#nodedata').val('node,text,color,shape');
+        $('#nodecsvfile').text('Choose file');
+    });
+    $('#saveAsDropdown a').click(function(){
+        if ($(this).attr('href') == '#nodes') {
+            export_nodes();
+        }
+        else if ($(this).attr('href') == '#edges') {
+            export_edges();
+        }
+    });
+
     $(document).on('change', '#edgecsvfileupload' , loadEdgeCSV);
     $(document).on('change', '#nodecsvfileupload' , loadNodeCSV);
 
